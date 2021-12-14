@@ -1,0 +1,405 @@
+{'theta': True, 'zeta': True, 'chi': False, 'gamma': True, 'phi': True, 'time': None}
+{'theta': False, 'zeta': False, 'chi': False, 'gamma': False, 'phi': False, 'time': None}
+(cirq.GridQubit(3, 2), cirq.GridQubit(4, 2)) = [0.005653352934596179]
+(cirq.GridQubit(4, 1), cirq.GridQubit(5, 1)) = [0.007375015732618062]
+(cirq.GridQubit(4, 2), cirq.GridQubit(5, 2)) = [0.00700440704363417]
+(cirq.GridQubit(4, 3), cirq.GridQubit(5, 3)) = [0.00842885403620891]
+(cirq.GridQubit(5, 0), cirq.GridQubit(5, 1)) = [0.007143743381215151]
+(cirq.GridQubit(5, 1), cirq.GridQubit(5, 2)) = [0.007232199681100754]
+(cirq.GridQubit(5, 1), cirq.GridQubit(6, 1)) = [0.006847979209530453]
+(cirq.GridQubit(5, 2), cirq.GridQubit(5, 3)) = [0.005365521924709626]
+(cirq.GridQubit(5, 2), cirq.GridQubit(6, 2)) = [0.009054877847637977]
+(cirq.GridQubit(5, 3), cirq.GridQubit(5, 4)) = [0.004709536197255504]
+(cirq.GridQubit(5, 3), cirq.GridQubit(6, 3)) = [0.0059856756579679815]
+(cirq.GridQubit(5, 4), cirq.GridQubit(6, 4)) = [0.004651029460094991]
+(cirq.GridQubit(6, 1), cirq.GridQubit(6, 2)) = [0.00792094837289739]
+(cirq.GridQubit(6, 2), cirq.GridQubit(6, 3)) = [0.007011248412327475]
+(cirq.GridQubit(6, 3), cirq.GridQubit(6, 4)) = [0.008591080011911889]
+(cirq.GridQubit(6, 3), cirq.GridQubit(7, 3)) = [0.007132916363217168]
+(cirq.GridQubit(6, 4), cirq.GridQubit(6, 5)) = [0.006546439558907491]
+(cirq.GridQubit(6, 5), cirq.GridQubit(7, 5)) = [0.005374354358644029]
+(cirq.GridQubit(7, 2), cirq.GridQubit(7, 3)) = [0.005801452337931445]
+(cirq.GridQubit(7, 3), cirq.GridQubit(7, 4)) = [0.007189246112731862]
+(cirq.GridQubit(7, 3), cirq.GridQubit(8, 3)) = [0.007149153734468561]
+(cirq.GridQubit(7, 4), cirq.GridQubit(7, 5)) = [0.007115721498997363]
+(cirq.GridQubit(7, 4), cirq.GridQubit(8, 4)) = [0.008183566995623004]
+(cirq.GridQubit(7, 5), cirq.GridQubit(7, 6)) = [0.007730965482185048]
+(cirq.GridQubit(7, 5), cirq.GridQubit(8, 5)) = [0.007667429199111786]
+(cirq.GridQubit(8, 3), cirq.GridQubit(8, 4)) = [0.009143646022778867]
+(cirq.GridQubit(8, 4), cirq.GridQubit(9, 4)) = [0.006191280976748176]
+                  (3, 2)
+                  │
+                  │
+         (4, 1)───(4, 2)───(4, 3)
+         │        │        │
+         │        │        │
+(5, 0)───(5, 1)───(5, 2)───(5, 3)───(5, 4)
+         │        │        │        │
+         │        │        │        │
+         (6, 1)───(6, 2)───(6, 3)───(6, 4)───(6, 5)
+                  │        │        │        │
+                  │        │        │        │
+                  (7, 2)───(7, 3)───(7, 4)───(7, 5)───(7, 6)
+                           │        │        │
+                           │        │        │
+                           (8, 3)───(8, 4)───(8, 5)
+                                    │
+                                    │
+                                    (9, 4)
+Start at: (3, 2), with dr
+Using qubits [cirq.GridQubit(3, 2), cirq.GridQubit(4, 2), cirq.GridQubit(4, 3), cirq.GridQubit(5, 3), cirq.GridQubit(5, 4), cirq.GridQubit(6, 4), cirq.GridQubit(6, 5), cirq.GridQubit(7, 5), cirq.GridQubit(4, 1), cirq.GridQubit(5, 1), cirq.GridQubit(5, 2), cirq.GridQubit(6, 2), cirq.GridQubit(6, 3), cirq.GridQubit(7, 3), cirq.GridQubit(7, 4), cirq.GridQubit(8, 4)]
+Using qubits, JW:[cirq.GridQubit(3, 2), cirq.GridQubit(4, 2), cirq.GridQubit(4, 3), cirq.GridQubit(5, 3), cirq.GridQubit(5, 4), cirq.GridQubit(6, 4), cirq.GridQubit(6, 5), cirq.GridQubit(7, 5), cirq.GridQubit(4, 1), cirq.GridQubit(5, 1), cirq.GridQubit(5, 2), cirq.GridQubit(6, 2), cirq.GridQubit(6, 3), cirq.GridQubit(7, 3), cirq.GridQubit(7, 4), cirq.GridQubit(8, 4)]
+                  [31m(3, 2)[0m
+                  │
+                  │
+         [35m(4, 1)[0m───[31m(4, 2)[0m───[31m(4, 3)[0m
+         │        │        │
+         │        │        │
+(5, 0)───[35m(5, 1)[0m───[35m(5, 2)[0m───[31m(5, 3)[0m───[31m(5, 4)[0m
+         │        │        │        │
+         │        │        │        │
+         (6, 1)───[35m(6, 2)[0m───[35m(6, 3)[0m───[31m(6, 4)[0m───[31m(6, 5)[0m
+                  │        │        │        │
+                  │        │        │        │
+                  (7, 2)───[35m(7, 3)[0m───[35m(7, 4)[0m───[31m(7, 5)[0m───(7, 6)
+                           │        │        │
+                           │        │        │
+                           (8, 3)───[35m(8, 4)[0m───(8, 5)
+                                    │
+                                    │
+                                    (9, 4)
+None
+Set recompilation to False
+Got pairs set [(10, 11), (5, 6), (3, 11), (5, 13), (8, 9), (4, 12), (6, 14), (1, 2), (6, 7), (7, 15), (12, 13), (4, 5), (2, 10), (9, 10), (2, 3), (1, 9), (14, 15), (0, 8), (11, 12), (0, 1), (13, 14), (3, 4)]
+---Starting to do calibration: delta 3.8714221690000006
+---Starting to set up measurements: delta 1.2521533429999998
+---Starting to run VQE: delta 1.9146064630000001
+Running BayesMGD: n_evals 15, nshots 1000, max_iter 50, max_evals 300
+---Preparing executables
+---Running executables delta=2.1107001789999984
+---Extracting values delta=2.0605296809999984
+---Extracted values delta=9.140423179999999
+---Preparing executables
+---Running executables delta=64.081514071
+---Extracting values delta=12.707313737000007
+---Extracted values delta=63.427994103
+[-1.8570419015116262, -2.0650386432110475]
+---Preparing executables
+---Running executables delta=2.5999467460000005
+---Extracting values delta=1.2089610829999913
+---Extracted values delta=14.94805249800001
+---Preparing executables
+---Running executables delta=2.1599660900000117
+---Extracting values delta=2.880901343000005
+---Extracted values delta=14.971169366999987
+2  :--------------------------------
+fit_params:  [ 0.82   1.555  0.639 -0.699 -0.016  0.289  0.072 -1.865 -1.484 -0.843]
+current: -2.065+/-0.108  true: -1.966+/-0.010  params:  [0.944 0.916 0.932]  grad:  [0.283 0.425 0.342]  gamma_k: 0.1977  delta_k: 0.6000
+---Preparing executables
+---Running executables delta=64.274923307
+---Extracting values delta=12.724636814000007
+---Extracted values delta=67.38458698700003
+[-1.8570419015116262, -2.0650386432110475, -1.9658639942602119, -1.9197186740522856]
+---Preparing executables
+---Running executables delta=2.1842003759999784
+---Extracting values delta=1.514021688000014
+---Extracted values delta=47.10276061299999
+---Preparing executables
+---Running executables delta=6.3154040470000155
+---Extracting values delta=1.4994450410000013
+---Extracted values delta=14.16423106000002
+3  :--------------------------------
+fit_params:  [ 0.137  0.401  0.139  0.007  0.128 -0.233  0.023  0.145 -0.017 -2.421]
+current: -1.920+/-0.073  true: -1.996+/-0.010  params:  [0.862 0.845 0.924]  grad:  [0.534 0.458 0.058]  gamma_k: 0.1548  delta_k: 0.5594
+---Preparing executables
+---Running executables delta=102.09400487799996
+---Extracting values delta=12.247147046999999
+---Extracted values delta=115.19795304600007
+[-1.8570419015116262, -2.0650386432110475, -1.9658639942602119, -1.9197186740522856, -1.9962250266028745, -2.0121029922598557]
+---Preparing executables
+---Running executables delta=2.249267979000024
+---Extracting values delta=1.0827567630000203
+---Extracted values delta=43.614389413000026
+---Preparing executables
+---Running executables delta=2.2748021120000885
+---Extracting values delta=1.0284669610000492
+---Extracted values delta=23.43138947099999
+4  :--------------------------------
+fit_params:  [ 0.043 -0.007 -0.141  0.319 -0.048  0.331 -0.03  -0.975 -0.235 -1.663]
+current: -2.012+/-0.094  true: -2.046+/-0.010  params:  [0.797 0.822 0.926]  grad:  [ 0.495  0.173 -0.018]  gamma_k: 0.1302  delta_k: 0.5370
+---Preparing executables
+---Running executables delta=105.70797145400002
+---Extracting values delta=12.943719001999966
+---Extracted values delta=135.6929151600001
+[-1.8570419015116262, -2.0650386432110475, -1.9658639942602119, -1.9197186740522856, -1.9962250266028745, -2.0121029922598557, -2.0464948300458525, -2.0925301476557134]
+---Preparing executables
+---Running executables delta=2.855729264000047
+---Extracting values delta=1.3356112420000272
+---Extracted values delta=41.70996921599999
+---Preparing executables
+---Running executables delta=2.1252535470000566
+---Extracting values delta=1.1511844239998936
+---Extracted values delta=25.346323493
+5  :--------------------------------
+fit_params:  [ 0.585  0.57  -0.164 -0.213 -0.063  0.289 -0.003 -0.769  0.46  -2.484]
+current: -2.093+/-0.066  true: -2.057+/-0.010  params:  [0.744 0.781 0.865]  grad:  [0.464 0.364 0.531]  gamma_k: 0.1139  delta_k: 0.5216
+---Preparing executables
+---Running executables delta=72.83573624899986
+---Extracting values delta=11.833922550999887
+---Extracted values delta=122.59381550499984
+[-1.8570419015116262, -2.0650386432110475, -1.9658639942602119, -1.9197186740522856, -1.9962250266028745, -2.0121029922598557, -2.0464948300458525, -2.0925301476557134, -2.057465875165316, -2.1649777002988224]
+---Preparing executables
+---Running executables delta=2.132628850999936
+---Extracting values delta=2.5173520339999413
+---Extracted values delta=23.711868154000058
+---Preparing executables
+---Running executables delta=2.144067097000061
+---Extracting values delta=1.0594182130000718
+{'theta': True, 'zeta': True, 'chi': False, 'gamma': True, 'phi': True, 'time': None}
+{'theta': False, 'zeta': False, 'chi': False, 'gamma': False, 'phi': False, 'time': None}
+(cirq.GridQubit(3, 2), cirq.GridQubit(4, 2)) = [0.005653352934596179]
+(cirq.GridQubit(4, 1), cirq.GridQubit(5, 1)) = [0.007375015732618062]
+(cirq.GridQubit(4, 2), cirq.GridQubit(5, 2)) = [0.00700440704363417]
+(cirq.GridQubit(4, 3), cirq.GridQubit(5, 3)) = [0.00842885403620891]
+(cirq.GridQubit(5, 0), cirq.GridQubit(5, 1)) = [0.007143743381215151]
+(cirq.GridQubit(5, 1), cirq.GridQubit(5, 2)) = [0.007232199681100754]
+(cirq.GridQubit(5, 1), cirq.GridQubit(6, 1)) = [0.006847979209530453]
+(cirq.GridQubit(5, 2), cirq.GridQubit(5, 3)) = [0.005365521924709626]
+(cirq.GridQubit(5, 2), cirq.GridQubit(6, 2)) = [0.009054877847637977]
+(cirq.GridQubit(5, 3), cirq.GridQubit(5, 4)) = [0.004709536197255504]
+(cirq.GridQubit(5, 3), cirq.GridQubit(6, 3)) = [0.0059856756579679815]
+(cirq.GridQubit(5, 4), cirq.GridQubit(6, 4)) = [0.004651029460094991]
+(cirq.GridQubit(6, 1), cirq.GridQubit(6, 2)) = [0.00792094837289739]
+(cirq.GridQubit(6, 2), cirq.GridQubit(6, 3)) = [0.007011248412327475]
+(cirq.GridQubit(6, 3), cirq.GridQubit(6, 4)) = [0.008591080011911889]
+(cirq.GridQubit(6, 3), cirq.GridQubit(7, 3)) = [0.007132916363217168]
+(cirq.GridQubit(6, 4), cirq.GridQubit(6, 5)) = [0.006546439558907491]
+(cirq.GridQubit(6, 5), cirq.GridQubit(7, 5)) = [0.005374354358644029]
+(cirq.GridQubit(7, 2), cirq.GridQubit(7, 3)) = [0.005801452337931445]
+(cirq.GridQubit(7, 3), cirq.GridQubit(7, 4)) = [0.007189246112731862]
+(cirq.GridQubit(7, 3), cirq.GridQubit(8, 3)) = [0.007149153734468561]
+(cirq.GridQubit(7, 4), cirq.GridQubit(7, 5)) = [0.007115721498997363]
+(cirq.GridQubit(7, 4), cirq.GridQubit(8, 4)) = [0.008183566995623004]
+(cirq.GridQubit(7, 5), cirq.GridQubit(7, 6)) = [0.007730965482185048]
+(cirq.GridQubit(7, 5), cirq.GridQubit(8, 5)) = [0.007667429199111786]
+(cirq.GridQubit(8, 3), cirq.GridQubit(8, 4)) = [0.009143646022778867]
+(cirq.GridQubit(8, 4), cirq.GridQubit(9, 4)) = [0.006191280976748176]
+                  (3, 2)
+                  │
+                  │
+         (4, 1)───(4, 2)───(4, 3)
+         │        │        │
+         │        │        │
+(5, 0)───(5, 1)───(5, 2)───(5, 3)───(5, 4)
+         │        │        │        │
+         │        │        │        │
+         (6, 1)───(6, 2)───(6, 3)───(6, 4)───(6, 5)
+                  │        │        │        │
+                  │        │        │        │
+                  (7, 2)───(7, 3)───(7, 4)───(7, 5)───(7, 6)
+                           │        │        │
+                           │        │        │
+                           (8, 3)───(8, 4)───(8, 5)
+                                    │
+                                    │
+                                    (9, 4)
+Start at: (3, 2), with dr
+Using qubits [cirq.GridQubit(3, 2), cirq.GridQubit(4, 2), cirq.GridQubit(4, 3), cirq.GridQubit(5, 3), cirq.GridQubit(5, 4), cirq.GridQubit(6, 4), cirq.GridQubit(6, 5), cirq.GridQubit(7, 5), cirq.GridQubit(4, 1), cirq.GridQubit(5, 1), cirq.GridQubit(5, 2), cirq.GridQubit(6, 2), cirq.GridQubit(6, 3), cirq.GridQubit(7, 3), cirq.GridQubit(7, 4), cirq.GridQubit(8, 4)]
+Using qubits, JW:[cirq.GridQubit(3, 2), cirq.GridQubit(4, 2), cirq.GridQubit(4, 3), cirq.GridQubit(5, 3), cirq.GridQubit(5, 4), cirq.GridQubit(6, 4), cirq.GridQubit(6, 5), cirq.GridQubit(7, 5), cirq.GridQubit(4, 1), cirq.GridQubit(5, 1), cirq.GridQubit(5, 2), cirq.GridQubit(6, 2), cirq.GridQubit(6, 3), cirq.GridQubit(7, 3), cirq.GridQubit(7, 4), cirq.GridQubit(8, 4)]
+                  [31m(3, 2)[0m
+                  │
+                  │
+         [35m(4, 1)[0m───[31m(4, 2)[0m───[31m(4, 3)[0m
+         │        │        │
+         │        │        │
+(5, 0)───[35m(5, 1)[0m───[35m(5, 2)[0m───[31m(5, 3)[0m───[31m(5, 4)[0m
+         │        │        │        │
+         │        │        │        │
+         (6, 1)───[35m(6, 2)[0m───[35m(6, 3)[0m───[31m(6, 4)[0m───[31m(6, 5)[0m
+                  │        │        │        │
+                  │        │        │        │
+                  (7, 2)───[35m(7, 3)[0m───[35m(7, 4)[0m───[31m(7, 5)[0m───(7, 6)
+                           │        │        │
+                           │        │        │
+                           (8, 3)───[35m(8, 4)[0m───(8, 5)
+                                    │
+                                    │
+                                    (9, 4)
+None
+Set recompilation to False
+Got pairs set [(10, 11), (5, 6), (3, 11), (5, 13), (8, 9), (4, 12), (6, 14), (1, 2), (6, 7), (7, 15), (12, 13), (4, 5), (2, 10), (9, 10), (2, 3), (1, 9), (14, 15), (0, 8), (11, 12), (0, 1), (13, 14), (3, 4)]
+---Starting to do calibration: delta 4.192162141999999
+---Starting to set up measurements: delta 1.0427532849999999
+---Starting to run VQE: delta 2.032854573
+Running BayesMGD: n_evals 15, nshots 1000, max_iter 50, max_evals 300
+---Preparing executables
+---Running executables delta=2.112748099000001
+---Extracting values delta=1.947507641999998
+---Extracted values delta=5.722633304999999
+---Preparing executables
+---Running executables delta=64.85377591999999
+---Extracting values delta=12.561641077999994
+{'theta': True, 'zeta': True, 'chi': False, 'gamma': True, 'phi': True, 'time': None}
+{'theta': False, 'zeta': False, 'chi': False, 'gamma': False, 'phi': False, 'time': None}
+(cirq.GridQubit(3, 2), cirq.GridQubit(4, 2)) = [0.005653352934596179]
+(cirq.GridQubit(4, 1), cirq.GridQubit(5, 1)) = [0.007375015732618062]
+(cirq.GridQubit(4, 2), cirq.GridQubit(5, 2)) = [0.00700440704363417]
+(cirq.GridQubit(4, 3), cirq.GridQubit(5, 3)) = [0.00842885403620891]
+(cirq.GridQubit(5, 0), cirq.GridQubit(5, 1)) = [0.007143743381215151]
+(cirq.GridQubit(5, 1), cirq.GridQubit(5, 2)) = [0.007232199681100754]
+(cirq.GridQubit(5, 1), cirq.GridQubit(6, 1)) = [0.006847979209530453]
+(cirq.GridQubit(5, 2), cirq.GridQubit(5, 3)) = [0.005365521924709626]
+(cirq.GridQubit(5, 2), cirq.GridQubit(6, 2)) = [0.009054877847637977]
+(cirq.GridQubit(5, 3), cirq.GridQubit(5, 4)) = [0.004709536197255504]
+(cirq.GridQubit(5, 3), cirq.GridQubit(6, 3)) = [0.0059856756579679815]
+(cirq.GridQubit(5, 4), cirq.GridQubit(6, 4)) = [0.004651029460094991]
+(cirq.GridQubit(6, 1), cirq.GridQubit(6, 2)) = [0.00792094837289739]
+(cirq.GridQubit(6, 2), cirq.GridQubit(6, 3)) = [0.007011248412327475]
+(cirq.GridQubit(6, 3), cirq.GridQubit(6, 4)) = [0.008591080011911889]
+(cirq.GridQubit(6, 3), cirq.GridQubit(7, 3)) = [0.007132916363217168]
+(cirq.GridQubit(6, 4), cirq.GridQubit(6, 5)) = [0.006546439558907491]
+(cirq.GridQubit(6, 5), cirq.GridQubit(7, 5)) = [0.005374354358644029]
+(cirq.GridQubit(7, 2), cirq.GridQubit(7, 3)) = [0.005801452337931445]
+(cirq.GridQubit(7, 3), cirq.GridQubit(7, 4)) = [0.007189246112731862]
+(cirq.GridQubit(7, 3), cirq.GridQubit(8, 3)) = [0.007149153734468561]
+(cirq.GridQubit(7, 4), cirq.GridQubit(7, 5)) = [0.007115721498997363]
+(cirq.GridQubit(7, 4), cirq.GridQubit(8, 4)) = [0.008183566995623004]
+(cirq.GridQubit(7, 5), cirq.GridQubit(7, 6)) = [0.007730965482185048]
+(cirq.GridQubit(7, 5), cirq.GridQubit(8, 5)) = [0.007667429199111786]
+(cirq.GridQubit(8, 3), cirq.GridQubit(8, 4)) = [0.009143646022778867]
+(cirq.GridQubit(8, 4), cirq.GridQubit(9, 4)) = [0.006191280976748176]
+                  (3, 2)
+                  │
+                  │
+         (4, 1)───(4, 2)───(4, 3)
+         │        │        │
+         │        │        │
+(5, 0)───(5, 1)───(5, 2)───(5, 3)───(5, 4)
+         │        │        │        │
+         │        │        │        │
+         (6, 1)───(6, 2)───(6, 3)───(6, 4)───(6, 5)
+                  │        │        │        │
+                  │        │        │        │
+                  (7, 2)───(7, 3)───(7, 4)───(7, 5)───(7, 6)
+                           │        │        │
+                           │        │        │
+                           (8, 3)───(8, 4)───(8, 5)
+                                    │
+                                    │
+                                    (9, 4)
+Start at: (3, 2), with dr
+Using qubits [cirq.GridQubit(3, 2), cirq.GridQubit(4, 2), cirq.GridQubit(4, 3), cirq.GridQubit(5, 3), cirq.GridQubit(5, 4), cirq.GridQubit(6, 4), cirq.GridQubit(6, 5), cirq.GridQubit(7, 5), cirq.GridQubit(4, 1), cirq.GridQubit(5, 1), cirq.GridQubit(5, 2), cirq.GridQubit(6, 2), cirq.GridQubit(6, 3), cirq.GridQubit(7, 3), cirq.GridQubit(7, 4), cirq.GridQubit(8, 4)]
+Using qubits, JW:[cirq.GridQubit(3, 2), cirq.GridQubit(4, 2), cirq.GridQubit(4, 3), cirq.GridQubit(5, 3), cirq.GridQubit(5, 4), cirq.GridQubit(6, 4), cirq.GridQubit(6, 5), cirq.GridQubit(7, 5), cirq.GridQubit(4, 1), cirq.GridQubit(5, 1), cirq.GridQubit(5, 2), cirq.GridQubit(6, 2), cirq.GridQubit(6, 3), cirq.GridQubit(7, 3), cirq.GridQubit(7, 4), cirq.GridQubit(8, 4)]
+                  [31m(3, 2)[0m
+                  │
+                  │
+         [35m(4, 1)[0m───[31m(4, 2)[0m───[31m(4, 3)[0m
+         │        │        │
+         │        │        │
+(5, 0)───[35m(5, 1)[0m───[35m(5, 2)[0m───[31m(5, 3)[0m───[31m(5, 4)[0m
+         │        │        │        │
+         │        │        │        │
+         (6, 1)───[35m(6, 2)[0m───[35m(6, 3)[0m───[31m(6, 4)[0m───[31m(6, 5)[0m
+                  │        │        │        │
+                  │        │        │        │
+                  (7, 2)───[35m(7, 3)[0m───[35m(7, 4)[0m───[31m(7, 5)[0m───(7, 6)
+                           │        │        │
+                           │        │        │
+                           (8, 3)───[35m(8, 4)[0m───(8, 5)
+                                    │
+                                    │
+                                    (9, 4)
+None
+Set recompilation to False
+Got pairs set [(10, 11), (5, 6), (3, 11), (5, 13), (8, 9), (4, 12), (6, 14), (1, 2), (6, 7), (7, 15), (12, 13), (4, 5), (2, 10), (9, 10), (2, 3), (1, 9), (14, 15), (0, 8), (11, 12), (0, 1), (13, 14), (3, 4)]
+---Starting to do calibration: delta 3.5780317540000004
+---Starting to set up measurements: delta 1.185145254
+---Starting to run VQE: delta 1.943857337999999
+Running BayesMGD: n_evals 15, nshots 1000, max_iter 50, max_evals 300
+---Preparing executables
+---Running executables delta=2.18105304
+---Extracting values delta=2.2247827900000026
+---Extracted values delta=7.686648010999999
+---Preparing executables
+---Running executables delta=86.676518706
+---Extracting values delta=13.752883534999995
+---Extracted values delta=61.885638920999995
+[-1.8008512848304206, -1.7779450237713728]
+2  :--------------------------------
+fit_params:  [-1.479 -0.085  0.041 -0.423  0.571 -0.489  2.819  2.333  0.095 -4.775]
+current: -1.778+/-0.085  params:  [0.969 0.933 0.933]  grad:  [0.158 0.34  0.341]  gamma_k: 0.1977  delta_k: 0.6000
+---Preparing executables
+---Running executables delta=87.51250004200003
+---Extracting values delta=18.06564526300002
+---Extracted values delta=64.72994116799998
+[-1.8008512848304206, -1.7779450237713728, -1.7779450237713728, -1.9964202852767552]
+3  :--------------------------------
+fit_params:  [-0.095 -0.287 -0.01  -0.399 -0.143  0.186  1.466  1.366  0.238 -3.801]
+current: -1.996+/-0.056  params:  [0.927 0.87  0.888]  grad:  [0.273 0.406 0.291]  gamma_k: 0.1548  delta_k: 0.5594
+---Preparing executables
+---Running executables delta=66.81133144199998
+---Extracting values delta=13.025712537999993
+---Extracted values delta=64.42477633200002
+[-1.8008512848304206, -1.7779450237713728, -1.7779450237713728, -1.9964202852767552, -1.9964202852767552, -2.108873110688209]
+4  :--------------------------------
+fit_params:  [ 0.455  0.111  0.632 -0.876  0.114  0.134  1.004  1.316 -1.318 -2.918]
+current: -2.109+/-0.056  params:  [0.858 0.854 0.855]  grad:  [0.526 0.124 0.249]  gamma_k: 0.1302  delta_k: 0.5370
+---Preparing executables
+---Running executables delta=60.95221463400003
+---Extracting values delta=11.580088435999983
+---Extracted values delta=67.55586278299995
+[-1.8008512848304206, -1.7779450237713728, -1.7779450237713728, -1.9964202852767552, -1.9964202852767552, -2.108873110688209, -2.108873110688209, -2.0638214595633584]
+5  :--------------------------------
+fit_params:  [ 0.052  0.009  0.478 -0.385  0.231 -0.523  0.68   2.003 -0.364 -3.423]
+current: -2.064+/-0.063  params:  [0.8   0.801 0.86 ]  grad:  [ 0.506  0.461 -0.044]  gamma_k: 0.1139  delta_k: 0.5216
+---Preparing executables
+---Running executables delta=70.79872271600004
+---Extracting values delta=11.630610437999962
+---Extracted values delta=82.67663642599996
+[-1.8008512848304206, -1.7779450237713728, -1.7779450237713728, -1.9964202852767552, -1.9964202852767552, -2.108873110688209, -2.108873110688209, -2.0638214595633584, -2.0638214595633584, -2.008923184302454]
+6  :--------------------------------
+fit_params:  [-0.053 -0.126  0.365 -0.407  0.284 -0.545  0.603  1.944 -0.509 -2.907]
+current: -2.009+/-0.046  params:  [0.764 0.786 0.891]  grad:  [ 0.354  0.153 -0.302]  gamma_k: 0.1020  delta_k: 0.5100
+---Preparing executables
+---Running executables delta=71.30975364400001
+---Extracting values delta=12.113296060999915
+---Extracted values delta=73.47389743299993
+[-1.8008512848304206, -1.7779450237713728, -1.7779450237713728, -1.9964202852767552, -1.9964202852767552, -2.108873110688209, -2.108873110688209, -2.0638214595633584, -2.0638214595633584, -2.008923184302454, -2.008923184302454, -1.9465566590687486]
+7  :--------------------------------
+fit_params:  [-0.075  0.148  0.68  -0.002 -0.144 -0.438  0.473  1.176 -0.217 -2.903]
+current: -1.947+/-0.045  params:  [0.755 0.728 0.883]  grad:  [0.098 0.624 0.086]  gamma_k: 0.0930  delta_k: 0.5007
+---Preparing executables
+---Running executables delta=68.74456037799996
+---Extracting values delta=11.648339690000057
+---Extracted values delta=94.62977895300014
+[-1.8008512848304206, -1.7779450237713728, -1.7779450237713728, -1.9964202852767552, -1.9964202852767552, -2.108873110688209, -2.108873110688209, -2.0638214595633584, -2.0638214595633584, -2.008923184302454, -2.008923184302454, -1.9465566590687486, -1.9465566590687486, -2.0323567822923634]
+8  :--------------------------------
+fit_params:  [-0.209  0.423  0.154 -0.126 -0.082 -0.064  0.772 -0.15   0.371 -2.73 ]
+current: -2.032+/-0.058  params:  [0.744 0.714 0.846]  grad:  [0.129 0.164 0.427]  gamma_k: 0.0858  delta_k: 0.4929
+---Preparing executables
+---Running executables delta=63.81299605200002
+---Extracting values delta=11.662200102000043
+---Extracted values delta=79.00428857500015
+[-1.8008512848304206, -1.7779450237713728, -1.7779450237713728, -1.9964202852767552, -1.9964202852767552, -2.108873110688209, -2.108873110688209, -2.0638214595633584, -2.0638214595633584, -2.008923184302454, -2.008923184302454, -1.9465566590687486, -1.9465566590687486, -2.0323567822923634, -2.0323567822923634, -2.1325309383348467]
+9  :--------------------------------
+fit_params:  [ 0.304  0.72   0.501 -0.149 -0.162 -0.194  0.215 -0.157 -0.098 -2.432]
+current: -2.133+/-0.053  params:  [0.73  0.688 0.828]  grad:  [0.181 0.322 0.232]  gamma_k: 0.0799  delta_k: 0.4863
+---Preparing executables
+---Running executables delta=63.06302501599998
+---Extracting values delta=11.738324035999995
+---Extracted values delta=77.90705401000014
+[-1.8008512848304206, -1.7779450237713728, -1.7779450237713728, -1.9964202852767552, -1.9964202852767552, -2.108873110688209, -2.108873110688209, -2.0638214595633584, -2.0638214595633584, -2.008923184302454, -2.008923184302454, -1.9465566590687486, -1.9465566590687486, -2.0323567822923634, -2.0323567822923634, -2.1325309383348467, -2.1325309383348467, -2.1343219397494493]
+10  :--------------------------------
+fit_params:  [ 0.364  0.64   0.368 -0.263 -0.113 -0.055  0.414 -0.141 -0.129 -2.514]
+current: -2.134+/-0.059  params:  [0.7   0.668 0.81 ]  grad:  [0.397 0.265 0.241]  gamma_k: 0.0750  delta_k: 0.4806
+---Preparing executables
+---Running executables delta=63.646108271
+---Extracting values delta=11.734198433000074
+---Extracted values delta=80.62166511100008
+[-1.8008512848304206, -1.7779450237713728, -1.7779450237713728, -1.9964202852767552, -1.9964202852767552, -2.108873110688209, -2.108873110688209, -2.0638214595633584, -2.0638214595633584, -2.008923184302454, -2.008923184302454, -1.9465566590687486, -1.9465566590687486, -2.0323567822923634, -2.0323567822923634, -2.1325309383348467, -2.1325309383348467, -2.1343219397494493, -2.1343219397494493, -2.0988383320229587]
+11  :--------------------------------
+fit_params:  [ 0.476  0.181  0.196 -0.251 -0.209 -0.177  0.009  0.313  0.48  -2.523]
+current: -2.099+/-0.055  params:  [0.7   0.674 0.791]  grad:  [ 0.002 -0.082  0.269]  gamma_k: 0.0708  delta_k: 0.4755
+***-2.10+/-0.06 1630446725.5582778
+---VQE complete: delta 1589.6880600779998
+Data collected can be found at experiments/8x1_bayesmgd_zz_x_U_4_nocc_2_d_1-0831/8x1

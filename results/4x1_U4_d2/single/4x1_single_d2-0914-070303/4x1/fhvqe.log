@@ -1,0 +1,1402 @@
+2021-09-14 07:03:07,225 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 38
+2021-09-14 07:03:07,232 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 38
+2021-09-14 07:03:07,297 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 25
+2021-09-14 07:03:07,302 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 25
+2021-09-14 07:03:07,311 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:07,320 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:07,391 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:07,396 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:07,411 - fhvqe.experiment:82 - DEBUG - Preparing analysis function for onsite
+2021-09-14 07:03:07,411 - fhvqe.vqe_experiment:947 - DEBUG - Executables, measurement onsite0:
+2021-09-14 07:03:07,431 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:07,439 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:07,510 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:07,515 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:07,574 - fhvqe.vqe_experiment:958 - DEBUG - Moment 0:
+  ╷ 3 4
+╶─┼─────
+5 │ X X
+  │
+6 │ X X
+  │
+7 │ X
+  │
+Moment 1:
+  ╷ 3         4
+╶─┼─────────────────────
+6 │           iSwap^0.5
+  │           │
+7 │ iSwap^0.5 iSwap
+  │ │
+8 │ iSwap
+  │
+Moment 2:
+  ╷ 3                      4
+╶─┼────────────────────────────────────────────────
+6 │                        Rz(4.291854645100725)
+  │
+7 │ Rz(4.331497687171457)  Rz(-1.1502619915109313)
+  │
+8 │ Rz(-1.189905033581664)
+  │
+Moment 3:
+  ╷ 3         4
+╶─┼─────────────────────
+6 │           iSwap^0.5
+  │           │
+7 │ iSwap^0.5 iSwap
+  │ │
+8 │ iSwap
+  │
+Moment 4:
+  ╷ 3                 4
+╶─┼─────────────────────────────────────
+6 │                   Z
+  │
+7 │ Z                 PhXZ(a=0,x=0,z=0)
+  │
+8 │ PhXZ(a=0,x=0,z=0)
+  │
+Moment 5:
+  ╷ 3         4
+╶─┼─────────────────────
+5 │           iSwap^0.5
+  │           │
+6 │ iSwap^0.5 iSwap
+  │ │
+7 │ iSwap     iSwap^0.5
+  │           │
+8 │           iSwap
+  │
+Moment 6:
+  ╷ 3                       4
+╶─┼─────────────────────────────────────────────────
+5 │                         Rz(4.027669777382407)
+  │
+6 │ Rz(4.007517209681659)   Rz(-0.8860771237926137)
+  │
+7 │ Rz(-0.8659245560918661) Rz(4.027669777382407)
+  │
+8 │                         Rz(-0.8860771237926134)
+  │
+Moment 7:
+  ╷ 3         4
+╶─┼─────────────────────
+5 │           iSwap^0.5
+  │           │
+6 │ iSwap^0.5 iSwap
+  │ │
+7 │ iSwap     iSwap^0.5
+  │           │
+8 │           iSwap
+  │
+Moment 8:
+  ╷ 3                 4
+╶─┼─────────────────────────────────────
+5 │                   Z
+  │
+6 │ Z                 PhXZ(a=0,x=0,z=0)
+  │
+7 │ PhXZ(a=0,x=0,z=0) Z
+  │
+8 │                   PhXZ(a=0,x=0,z=0)
+  │
+Moment 9:
+  ╷ 3         4
+╶─┼─────────────────────
+5 │ iSwap^0.5
+  │ │
+6 │ iSwap     iSwap^0.5
+  │           │
+7 │           iSwap
+  │
+Moment 10:
+  ╷ 3                       4
+╶─┼─────────────────────────────────────────────────
+5 │ Rz(3.695167012486838)
+  │
+6 │ Rz(-0.5535743588970453) Rz(3.562126988873758)
+  │
+7 │                         Rz(-0.4205343352839652)
+  │
+Moment 11:
+  ╷ 3         4
+╶─┼─────────────────────
+5 │ iSwap^0.5
+  │ │
+6 │ iSwap     iSwap^0.5
+  │           │
+7 │           iSwap
+  │
+Moment 12:
+  ╷ 3                                                                        4
+╶─┼────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+5 │ PhXZ(a=-0.9204225284540524,x=0.04010328141741559,z=-0.07957747154594763) PhXZ(a=0.07957747154594767,x=-0.5,z=-0.07957747154594767)
+  │
+6 │ PhXZ(a=0.07957747154594763,x=0.04010328141741559,z=0.9204225284540524)   PhXZ(a=0.07957747154594763,x=0.5,z=0.9204225284540524)
+  │
+7 │ PhXZ(a=0.07957747154594767,x=0.04010328141741558,z=0.9204225284540524)   PhXZ(a=-0.9204225284540524,x=0.5,z=-0.07957747154594763)
+  │
+8 │ PhXZ(a=0.07957747154594767,x=0.04010328141741558,z=0.9204225284540524)   PhXZ(a=0.07957747154594767,x=-0.5,z=-0.07957747154594767)
+  │
+Moment 13:
+  ╷ 3         4
+╶─┼─────────────────
+5 │ iSwap^0.5─iSwap
+  │
+6 │ iSwap^0.5─iSwap
+  │
+7 │ iSwap^0.5─iSwap
+  │
+8 │ iSwap^0.5─iSwap
+  │
+Moment 14:
+  ╷ 3
+╶─┼───────────────────────────────────────
+5 │ PhXZ(a=1,x=-0.11283656610933077,z=-1)
+  │
+6 │ PhXZ(a=1,x=-0.11283656610933077,z=-1)
+  │
+7 │ PhXZ(a=1,x=-0.11283656610933077,z=-1)
+  │
+8 │ PhXZ(a=1,x=-0.11283656610933077,z=-1)
+  │
+Moment 15:
+  ╷ 3         4
+╶─┼─────────────────
+5 │ iSwap^0.5─iSwap
+  │
+6 │ iSwap^0.5─iSwap
+  │
+7 │ iSwap^0.5─iSwap
+  │
+8 │ iSwap^0.5─iSwap
+  │
+Moment 16:
+  ╷ 3                                       4
+╶─┼──────────────────────────────────────────────────────────────────────────────────────
+5 │ PhXZ(a=0,x=0.04010328141741559,z=-0.25) PhXZ(a=0,x=0.5,z=-0.25)
+  │
+6 │ PhXZ(a=0,x=0.04010328141741559,z=0.25)  PhXZ(a=-1.1102230246251565e-16,x=0.5,z=0.25)
+  │
+7 │ PhXZ(a=0,x=0.04010328141741559,z=-0.25) PhXZ(a=0,x=0.5,z=-0.25)
+  │
+8 │ PhXZ(a=0,x=0.04010328141741559,z=0.25)  PhXZ(a=-1.1102230246251565e-16,x=0.5,z=0.25)
+  │
+Moment 17:
+  ╷ 3         4
+╶─┼─────────────────────
+5 │ iSwap^0.5 iSwap^0.5
+  │ │         │
+6 │ iSwap     iSwap
+  │
+7 │ iSwap^0.5 iSwap^0.5
+  │ │         │
+8 │ iSwap     iSwap
+  │
+Moment 18:
+  ╷ 3                                                     4
+╶─┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+5 │ PhXZ(a=-0.5795774715459476,x=0,z=-0.9204225284540524) PhXZ(a=-0.5795774715459476,x=0,z=-0.9204225284540524)
+  │
+6 │ Rz(-0.25)                                             Rz(-0.25)
+  │
+7 │ PhXZ(a=-0.5795774715459476,x=0,z=-0.9204225284540524) PhXZ(a=-0.5795774715459476,x=0,z=-0.9204225284540524)
+  │
+8 │ Rz(-0.25)                                             Rz(-0.25)
+  │
+Moment 19:
+  ╷ 3         4
+╶─┼─────────────────────
+5 │ iSwap^0.5 iSwap^0.5
+  │ │         │
+6 │ iSwap     iSwap
+  │
+7 │ iSwap^0.5 iSwap^0.5
+  │ │         │
+8 │ iSwap     iSwap
+  │
+Moment 20:
+  ╷ 3                                      4
+╶─┼───────────────────────────────────────────────────────────────────────────────
+5 │ PhXZ(a=-0.75,x=0,z=-0.75)              PhXZ(a=-0.75,x=0,z=-0.75)
+  │
+6 │ PhXZ(a=-1,x=0,z=-0.5)                  PhXZ(a=-1,x=0,z=-0.5)
+  │
+7 │ PhXZ(a=-1,x=0,z=-0.5)                  PhXZ(a=-1,x=0,z=-0.5)
+  │
+8 │ PhXZ(a=0.7499999999999998,x=0,z=-0.25) PhXZ(a=0.7499999999999998,x=0,z=-0.25)
+  │
+Moment 21:
+  ╷ 3         4
+╶─┼─────────────────────
+6 │ iSwap^0.5 iSwap^0.5
+  │ │         │
+7 │ iSwap     iSwap
+  │
+Moment 22:
+  ╷ 3                                                     4
+╶─┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+6 │ PhXZ(a=-0.5795774715459476,x=0,z=-0.9204225284540524) PhXZ(a=-0.5795774715459476,x=0,z=-0.9204225284540524)
+  │
+7 │ Rz(-0.25)                                             Rz(-0.25)
+  │
+Moment 23:
+  ╷ 3         4
+╶─┼─────────────────────
+6 │ iSwap^0.5 iSwap^0.5
+  │ │         │
+7 │ iSwap     iSwap
+  │
+Moment 24:
+  ╷ 3                                                                      4
+╶─┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+5 │ PhXZ(a=0.07957747154594767,x=0.04010328141741558,z=0.9204225284540524) PhXZ(a=0.07957747154594767,x=-0.5,z=-0.07957747154594767)
+  │
+6 │ PhXZ(a=0.8295774715459476,x=0.04010328141741559,z=0.17042252845405237) PhXZ(a=-0.17042252845405237,x=0.5,z=-0.8295774715459476)
+  │
+7 │ PhXZ(a=0.32957747154594763,x=0.04010328141741559,z=0.6704225284540524) PhXZ(a=-0.6704225284540524,x=0.5,z=-0.32957747154594763)
+  │
+8 │ PhXZ(a=0.07957747154594767,x=0.04010328141741558,z=0.9204225284540524) PhXZ(a=0.07957747154594767,x=-0.5,z=-0.07957747154594767)
+  │
+Moment 25:
+  ╷ 3         4
+╶─┼─────────────────
+5 │ iSwap^0.5─iSwap
+  │
+6 │ iSwap^0.5─iSwap
+  │
+7 │ iSwap^0.5─iSwap
+  │
+8 │ iSwap^0.5─iSwap
+  │
+Moment 26:
+  ╷ 3
+╶─┼───────────────────────────────────────
+5 │ PhXZ(a=1,x=-0.11283656610933077,z=-1)
+  │
+6 │ PhXZ(a=1,x=-0.11283656610933077,z=-1)
+  │
+7 │ PhXZ(a=1,x=-0.11283656610933077,z=-1)
+  │
+8 │ PhXZ(a=1,x=-0.11283656610933077,z=-1)
+  │
+Moment 27:
+  ╷ 3         4
+╶─┼─────────────────
+5 │ iSwap^0.5─iSwap
+  │
+6 │ iSwap^0.5─iSwap
+  │
+7 │ iSwap^0.5─iSwap
+  │
+8 │ iSwap^0.5─iSwap
+  │
+Moment 28:
+  ╷ 3                                       4
+╶─┼──────────────────────────────────────────────────────────────────────────────────────
+5 │ PhXZ(a=0,x=0.04010328141741559,z=-0.25) PhXZ(a=0,x=0.5,z=-0.25)
+  │
+6 │ PhXZ(a=0,x=0.04010328141741559,z=0.25)  PhXZ(a=-1.1102230246251565e-16,x=0.5,z=0.25)
+  │
+7 │ PhXZ(a=0,x=0.04010328141741559,z=-0.25) PhXZ(a=0,x=0.5,z=-0.25)
+  │
+8 │ PhXZ(a=0,x=0.04010328141741559,z=0.25)  PhXZ(a=-1.1102230246251565e-16,x=0.5,z=0.25)
+  │
+Moment 29:
+  ╷ 3         4
+╶─┼─────────────────────
+5 │ iSwap^0.5 iSwap^0.5
+  │ │         │
+6 │ iSwap     iSwap
+  │
+7 │ iSwap^0.5 iSwap^0.5
+  │ │         │
+8 │ iSwap     iSwap
+  │
+Moment 30:
+  ╷ 3                                                     4
+╶─┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+5 │ PhXZ(a=-0.5795774715459476,x=0,z=-0.9204225284540524) PhXZ(a=-0.5795774715459476,x=0,z=-0.9204225284540524)
+  │
+6 │ Rz(-0.25)                                             Rz(-0.25)
+  │
+7 │ PhXZ(a=-0.5795774715459476,x=0,z=-0.9204225284540524) PhXZ(a=-0.5795774715459476,x=0,z=-0.9204225284540524)
+  │
+8 │ Rz(-0.25)                                             Rz(-0.25)
+  │
+Moment 31:
+  ╷ 3         4
+╶─┼─────────────────────
+5 │ iSwap^0.5 iSwap^0.5
+  │ │         │
+6 │ iSwap     iSwap
+  │
+7 │ iSwap^0.5 iSwap^0.5
+  │ │         │
+8 │ iSwap     iSwap
+  │
+Moment 32:
+  ╷ 3                                      4
+╶─┼───────────────────────────────────────────────────────────────────────────────
+5 │ PhXZ(a=-0.75,x=0,z=-0.75)              PhXZ(a=-0.75,x=0,z=-0.75)
+  │
+6 │ PhXZ(a=-1,x=0,z=-0.5)                  PhXZ(a=-1,x=0,z=-0.5)
+  │
+7 │ PhXZ(a=-1,x=0,z=-0.5)                  PhXZ(a=-1,x=0,z=-0.5)
+  │
+8 │ PhXZ(a=0.7499999999999998,x=0,z=-0.25) PhXZ(a=0.7499999999999998,x=0,z=-0.25)
+  │
+Moment 33:
+  ╷ 3         4
+╶─┼─────────────────────
+6 │ iSwap^0.5 iSwap^0.5
+  │ │         │
+7 │ iSwap     iSwap
+  │
+Moment 34:
+  ╷ 3                                                     4
+╶─┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+6 │ PhXZ(a=-0.5795774715459476,x=0,z=-0.9204225284540524) PhXZ(a=-0.5795774715459476,x=0,z=-0.9204225284540524)
+  │
+7 │ Rz(-0.25)                                             Rz(-0.25)
+  │
+Moment 35:
+  ╷ 3         4
+╶─┼─────────────────────
+6 │ iSwap^0.5 iSwap^0.5
+  │ │         │
+7 │ iSwap     iSwap
+  │
+Moment 36:
+  ╷ 3                                      4
+╶─┼───────────────────────────────────────────────────────────────────────────────
+6 │ PhXZ(a=-0.75,x=0,z=-0.75)              PhXZ(a=-0.75,x=0,z=-0.75)
+  │
+7 │ PhXZ(a=0.7499999999999998,x=0,z=-0.25) PhXZ(a=0.7499999999999998,x=0,z=-0.25)
+  │
+Moment 37:
+  ╷ 3      4
+╶─┼──────────
+5 │ M('x')─M
+  │ │      │
+6 │ M      M
+  │ │      │
+7 │ M      M
+  │ │      │
+8 │ M      M
+  │
+
+2021-09-14 07:03:07,577 - fhvqe.experiment:82 - DEBUG - Preparing analysis function for horiz
+2021-09-14 07:03:07,586 - fhvqe.vqe_experiment:940 - DEBUG - horiz0:
+           ┌──────────────────┐                ┌──────────────────┐
+(5, 3): ────iSwap─────────────────Rz(1.25π)─────iSwap─────────────────Z───────────────────
+            │                                   │
+(5, 4): ────┼────────iSwap────────Rz(1.25π)─────┼────────iSwap────────Z───────────────────
+            │        │                          │        │
+(6, 3): ────iSwap^0.5┼────────────Rz(-0.25π)────iSwap^0.5┼────────────PhXZ(a=0,x=0,z=0)───
+                     │                                   │
+(6, 4): ─────────────iSwap^0.5────Rz(-0.25π)─────────────iSwap^0.5────PhXZ(a=0,x=0,z=0)───
+
+(7, 3): ────iSwap─────────────────Rz(1.25π)─────iSwap─────────────────Z───────────────────
+            │                                   │
+(7, 4): ────┼────────iSwap────────Rz(1.25π)─────┼────────iSwap────────Z───────────────────
+            │        │                          │        │
+(8, 3): ────iSwap^0.5┼────────────Rz(-0.25π)────iSwap^0.5┼────────────PhXZ(a=0,x=0,z=0)───
+                     │                                   │
+(8, 4): ─────────────iSwap^0.5────Rz(-0.25π)─────────────iSwap^0.5────PhXZ(a=0,x=0,z=0)───
+           └──────────────────┘                └──────────────────┘
+2021-09-14 07:03:07,596 - fhvqe.vqe_experiment:947 - DEBUG - Executables, measurement horiz0:
+2021-09-14 07:03:07,616 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:07,625 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:07,696 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:07,702 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:07,768 - fhvqe.vqe_experiment:958 - DEBUG - Moment 0:
+  ╷ 3 4
+╶─┼─────
+5 │ X X
+  │
+6 │ X X
+  │
+7 │ X
+  │
+Moment 1:
+  ╷ 3         4
+╶─┼─────────────────────
+6 │           iSwap^0.5
+  │           │
+7 │ iSwap^0.5 iSwap
+  │ │
+8 │ iSwap
+  │
+Moment 2:
+  ╷ 3                      4
+╶─┼────────────────────────────────────────────────
+6 │                        Rz(4.291854645100725)
+  │
+7 │ Rz(4.331497687171457)  Rz(-1.1502619915109313)
+  │
+8 │ Rz(-1.189905033581664)
+  │
+Moment 3:
+  ╷ 3         4
+╶─┼─────────────────────
+6 │           iSwap^0.5
+  │           │
+7 │ iSwap^0.5 iSwap
+  │ │
+8 │ iSwap
+  │
+Moment 4:
+  ╷ 3                 4
+╶─┼─────────────────────────────────────
+6 │                   Z
+  │
+7 │ Z                 PhXZ(a=0,x=0,z=0)
+  │
+8 │ PhXZ(a=0,x=0,z=0)
+  │
+Moment 5:
+  ╷ 3         4
+╶─┼─────────────────────
+5 │           iSwap^0.5
+  │           │
+6 │ iSwap^0.5 iSwap
+  │ │
+7 │ iSwap     iSwap^0.5
+  │           │
+8 │           iSwap
+  │
+Moment 6:
+  ╷ 3                       4
+╶─┼─────────────────────────────────────────────────
+5 │                         Rz(4.027669777382407)
+  │
+6 │ Rz(4.007517209681659)   Rz(-0.8860771237926137)
+  │
+7 │ Rz(-0.8659245560918661) Rz(4.027669777382407)
+  │
+8 │                         Rz(-0.8860771237926134)
+  │
+Moment 7:
+  ╷ 3         4
+╶─┼─────────────────────
+5 │           iSwap^0.5
+  │           │
+6 │ iSwap^0.5 iSwap
+  │ │
+7 │ iSwap     iSwap^0.5
+  │           │
+8 │           iSwap
+  │
+Moment 8:
+  ╷ 3                 4
+╶─┼─────────────────────────────────────
+5 │                   Z
+  │
+6 │ Z                 PhXZ(a=0,x=0,z=0)
+  │
+7 │ PhXZ(a=0,x=0,z=0) Z
+  │
+8 │                   PhXZ(a=0,x=0,z=0)
+  │
+Moment 9:
+  ╷ 3         4
+╶─┼─────────────────────
+5 │ iSwap^0.5
+  │ │
+6 │ iSwap     iSwap^0.5
+  │           │
+7 │           iSwap
+  │
+Moment 10:
+  ╷ 3                       4
+╶─┼─────────────────────────────────────────────────
+5 │ Rz(3.695167012486838)
+  │
+6 │ Rz(-0.5535743588970453) Rz(3.562126988873758)
+  │
+7 │                         Rz(-0.4205343352839652)
+  │
+Moment 11:
+  ╷ 3         4
+╶─┼─────────────────────
+5 │ iSwap^0.5
+  │ │
+6 │ iSwap     iSwap^0.5
+  │           │
+7 │           iSwap
+  │
+Moment 12:
+  ╷ 3                                                                        4
+╶─┼────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+5 │ PhXZ(a=-0.9204225284540524,x=0.04010328141741559,z=-0.07957747154594763) PhXZ(a=0.07957747154594767,x=-0.5,z=-0.07957747154594767)
+  │
+6 │ PhXZ(a=0.07957747154594763,x=0.04010328141741559,z=0.9204225284540524)   PhXZ(a=0.07957747154594763,x=0.5,z=0.9204225284540524)
+  │
+7 │ PhXZ(a=0.07957747154594767,x=0.04010328141741558,z=0.9204225284540524)   PhXZ(a=-0.9204225284540524,x=0.5,z=-0.07957747154594763)
+  │
+8 │ PhXZ(a=0.07957747154594767,x=0.04010328141741558,z=0.9204225284540524)   PhXZ(a=0.07957747154594767,x=-0.5,z=-0.07957747154594767)
+  │
+Moment 13:
+  ╷ 3         4
+╶─┼─────────────────
+5 │ iSwap^0.5─iSwap
+  │
+6 │ iSwap^0.5─iSwap
+  │
+7 │ iSwap^0.5─iSwap
+  │
+8 │ iSwap^0.5─iSwap
+  │
+Moment 14:
+  ╷ 3
+╶─┼───────────────────────────────────────
+5 │ PhXZ(a=1,x=-0.11283656610933077,z=-1)
+  │
+6 │ PhXZ(a=1,x=-0.11283656610933077,z=-1)
+  │
+7 │ PhXZ(a=1,x=-0.11283656610933077,z=-1)
+  │
+8 │ PhXZ(a=1,x=-0.11283656610933077,z=-1)
+  │
+Moment 15:
+  ╷ 3         4
+╶─┼─────────────────
+5 │ iSwap^0.5─iSwap
+  │
+6 │ iSwap^0.5─iSwap
+  │
+7 │ iSwap^0.5─iSwap
+  │
+8 │ iSwap^0.5─iSwap
+  │
+Moment 16:
+  ╷ 3                                       4
+╶─┼──────────────────────────────────────────────────────────────────────────────────────
+5 │ PhXZ(a=0,x=0.04010328141741559,z=-0.25) PhXZ(a=0,x=0.5,z=-0.25)
+  │
+6 │ PhXZ(a=0,x=0.04010328141741559,z=0.25)  PhXZ(a=-1.1102230246251565e-16,x=0.5,z=0.25)
+  │
+7 │ PhXZ(a=0,x=0.04010328141741559,z=-0.25) PhXZ(a=0,x=0.5,z=-0.25)
+  │
+8 │ PhXZ(a=0,x=0.04010328141741559,z=0.25)  PhXZ(a=-1.1102230246251565e-16,x=0.5,z=0.25)
+  │
+Moment 17:
+  ╷ 3         4
+╶─┼─────────────────────
+5 │ iSwap^0.5 iSwap^0.5
+  │ │         │
+6 │ iSwap     iSwap
+  │
+7 │ iSwap^0.5 iSwap^0.5
+  │ │         │
+8 │ iSwap     iSwap
+  │
+Moment 18:
+  ╷ 3                                                     4
+╶─┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+5 │ PhXZ(a=-0.5795774715459476,x=0,z=-0.9204225284540524) PhXZ(a=-0.5795774715459476,x=0,z=-0.9204225284540524)
+  │
+6 │ Rz(-0.25)                                             Rz(-0.25)
+  │
+7 │ PhXZ(a=-0.5795774715459476,x=0,z=-0.9204225284540524) PhXZ(a=-0.5795774715459476,x=0,z=-0.9204225284540524)
+  │
+8 │ Rz(-0.25)                                             Rz(-0.25)
+  │
+Moment 19:
+  ╷ 3         4
+╶─┼─────────────────────
+5 │ iSwap^0.5 iSwap^0.5
+  │ │         │
+6 │ iSwap     iSwap
+  │
+7 │ iSwap^0.5 iSwap^0.5
+  │ │         │
+8 │ iSwap     iSwap
+  │
+Moment 20:
+  ╷ 3                                      4
+╶─┼───────────────────────────────────────────────────────────────────────────────
+5 │ PhXZ(a=-0.75,x=0,z=-0.75)              PhXZ(a=-0.75,x=0,z=-0.75)
+  │
+6 │ PhXZ(a=-1,x=0,z=-0.5)                  PhXZ(a=-1,x=0,z=-0.5)
+  │
+7 │ PhXZ(a=-1,x=0,z=-0.5)                  PhXZ(a=-1,x=0,z=-0.5)
+  │
+8 │ PhXZ(a=0.7499999999999998,x=0,z=-0.25) PhXZ(a=0.7499999999999998,x=0,z=-0.25)
+  │
+Moment 21:
+  ╷ 3         4
+╶─┼─────────────────────
+6 │ iSwap^0.5 iSwap^0.5
+  │ │         │
+7 │ iSwap     iSwap
+  │
+Moment 22:
+  ╷ 3                                                     4
+╶─┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+6 │ PhXZ(a=-0.5795774715459476,x=0,z=-0.9204225284540524) PhXZ(a=-0.5795774715459476,x=0,z=-0.9204225284540524)
+  │
+7 │ Rz(-0.25)                                             Rz(-0.25)
+  │
+Moment 23:
+  ╷ 3         4
+╶─┼─────────────────────
+6 │ iSwap^0.5 iSwap^0.5
+  │ │         │
+7 │ iSwap     iSwap
+  │
+Moment 24:
+  ╷ 3                                                                      4
+╶─┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+5 │ PhXZ(a=0.07957747154594767,x=0.04010328141741558,z=0.9204225284540524) PhXZ(a=0.07957747154594767,x=-0.5,z=-0.07957747154594767)
+  │
+6 │ PhXZ(a=0.8295774715459476,x=0.04010328141741559,z=0.17042252845405237) PhXZ(a=-0.17042252845405237,x=0.5,z=-0.8295774715459476)
+  │
+7 │ PhXZ(a=0.32957747154594763,x=0.04010328141741559,z=0.6704225284540524) PhXZ(a=-0.6704225284540524,x=0.5,z=-0.32957747154594763)
+  │
+8 │ PhXZ(a=0.07957747154594767,x=0.04010328141741558,z=0.9204225284540524) PhXZ(a=0.07957747154594767,x=-0.5,z=-0.07957747154594767)
+  │
+Moment 25:
+  ╷ 3         4
+╶─┼─────────────────
+5 │ iSwap^0.5─iSwap
+  │
+6 │ iSwap^0.5─iSwap
+  │
+7 │ iSwap^0.5─iSwap
+  │
+8 │ iSwap^0.5─iSwap
+  │
+Moment 26:
+  ╷ 3
+╶─┼───────────────────────────────────────
+5 │ PhXZ(a=1,x=-0.11283656610933077,z=-1)
+  │
+6 │ PhXZ(a=1,x=-0.11283656610933077,z=-1)
+  │
+7 │ PhXZ(a=1,x=-0.11283656610933077,z=-1)
+  │
+8 │ PhXZ(a=1,x=-0.11283656610933077,z=-1)
+  │
+Moment 27:
+  ╷ 3         4
+╶─┼─────────────────
+5 │ iSwap^0.5─iSwap
+  │
+6 │ iSwap^0.5─iSwap
+  │
+7 │ iSwap^0.5─iSwap
+  │
+8 │ iSwap^0.5─iSwap
+  │
+Moment 28:
+  ╷ 3                                       4
+╶─┼──────────────────────────────────────────────────────────────────────────────────────
+5 │ PhXZ(a=0,x=0.04010328141741559,z=-0.25) PhXZ(a=0,x=0.5,z=-0.25)
+  │
+6 │ PhXZ(a=0,x=0.04010328141741559,z=0.25)  PhXZ(a=-1.1102230246251565e-16,x=0.5,z=0.25)
+  │
+7 │ PhXZ(a=0,x=0.04010328141741559,z=-0.25) PhXZ(a=0,x=0.5,z=-0.25)
+  │
+8 │ PhXZ(a=0,x=0.04010328141741559,z=0.25)  PhXZ(a=-1.1102230246251565e-16,x=0.5,z=0.25)
+  │
+Moment 29:
+  ╷ 3         4
+╶─┼─────────────────────
+5 │ iSwap^0.5 iSwap^0.5
+  │ │         │
+6 │ iSwap     iSwap
+  │
+7 │ iSwap^0.5 iSwap^0.5
+  │ │         │
+8 │ iSwap     iSwap
+  │
+Moment 30:
+  ╷ 3                                                     4
+╶─┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+5 │ PhXZ(a=-0.5795774715459476,x=0,z=-0.9204225284540524) PhXZ(a=-0.5795774715459476,x=0,z=-0.9204225284540524)
+  │
+6 │ Rz(-0.25)                                             Rz(-0.25)
+  │
+7 │ PhXZ(a=-0.5795774715459476,x=0,z=-0.9204225284540524) PhXZ(a=-0.5795774715459476,x=0,z=-0.9204225284540524)
+  │
+8 │ Rz(-0.25)                                             Rz(-0.25)
+  │
+Moment 31:
+  ╷ 3         4
+╶─┼─────────────────────
+5 │ iSwap^0.5 iSwap^0.5
+  │ │         │
+6 │ iSwap     iSwap
+  │
+7 │ iSwap^0.5 iSwap^0.5
+  │ │         │
+8 │ iSwap     iSwap
+  │
+Moment 32:
+  ╷ 3                                      4
+╶─┼───────────────────────────────────────────────────────────────────────────────
+5 │ PhXZ(a=-0.75,x=0,z=-0.75)              PhXZ(a=-0.75,x=0,z=-0.75)
+  │
+6 │ PhXZ(a=-1,x=0,z=-0.5)                  PhXZ(a=-1,x=0,z=-0.5)
+  │
+7 │ PhXZ(a=-1,x=0,z=-0.5)                  PhXZ(a=-1,x=0,z=-0.5)
+  │
+8 │ PhXZ(a=0.7499999999999998,x=0,z=-0.25) PhXZ(a=0.7499999999999998,x=0,z=-0.25)
+  │
+Moment 33:
+  ╷ 3         4
+╶─┼─────────────────────
+6 │ iSwap^0.5 iSwap^0.5
+  │ │         │
+7 │ iSwap     iSwap
+  │
+Moment 34:
+  ╷ 3                                                     4
+╶─┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+6 │ PhXZ(a=-0.5795774715459476,x=0,z=-0.9204225284540524) PhXZ(a=-0.5795774715459476,x=0,z=-0.9204225284540524)
+  │
+7 │ Rz(-0.25)                                             Rz(-0.25)
+  │
+Moment 35:
+  ╷ 3         4
+╶─┼─────────────────────
+6 │ iSwap^0.5 iSwap^0.5
+  │ │         │
+7 │ iSwap     iSwap
+  │
+Moment 36:
+  ╷ 3                                      4
+╶─┼───────────────────────────────────────────────────────────────────────────────
+6 │ PhXZ(a=-0.75,x=0,z=-0.75)              PhXZ(a=-0.75,x=0,z=-0.75)
+  │
+7 │ PhXZ(a=0.7499999999999998,x=0,z=-0.25) PhXZ(a=0.7499999999999998,x=0,z=-0.25)
+  │
+Moment 37:
+  ╷ 3         4
+╶─┼─────────────────────
+5 │ iSwap^0.5 iSwap^0.5
+  │ │         │
+6 │ iSwap     iSwap
+  │
+7 │ iSwap^0.5 iSwap^0.5
+  │ │         │
+8 │ iSwap     iSwap
+  │
+Moment 38:
+  ╷ 3                       4
+╶─┼─────────────────────────────────────────────────
+5 │ Rz(3.9269908169872414)  Rz(3.9269908169872414)
+  │
+6 │ Rz(-0.7853981633974483) Rz(-0.7853981633974483)
+  │
+7 │ Rz(3.9269908169872414)  Rz(3.9269908169872414)
+  │
+8 │ Rz(-0.7853981633974483) Rz(-0.7853981633974483)
+  │
+Moment 39:
+  ╷ 3         4
+╶─┼─────────────────────
+5 │ iSwap^0.5 iSwap^0.5
+  │ │         │
+6 │ iSwap     iSwap
+  │
+7 │ iSwap^0.5 iSwap^0.5
+  │ │         │
+8 │ iSwap     iSwap
+  │
+Moment 40:
+  ╷ 3                 4
+╶─┼─────────────────────────────────────
+5 │ Z                 Z
+  │
+6 │ PhXZ(a=0,x=0,z=0) PhXZ(a=0,x=0,z=0)
+  │
+7 │ Z                 Z
+  │
+8 │ PhXZ(a=0,x=0,z=0) PhXZ(a=0,x=0,z=0)
+  │
+Moment 41:
+  ╷ 3      4
+╶─┼──────────
+5 │ M('x')─M
+  │ │      │
+6 │ M      M
+  │ │      │
+7 │ M      M
+  │ │      │
+8 │ M      M
+  │
+
+2021-09-14 07:03:07,768 - fhvqe.experiment:82 - DEBUG - Preparing analysis function for horiz
+2021-09-14 07:03:07,768 - fhvqe.vqe_experiment:940 - DEBUG - horiz1:
+
+2021-09-14 07:03:07,769 - fhvqe.experiment:658 - INFO - Preparing executables.
+2021-09-14 07:03:07,769 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[0.296 0.719 0.843]
+ [0.73  0.598 0.206]]
+2021-09-14 07:03:07,789 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:07,798 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:07,870 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:07,876 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:07,888 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:07,897 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:07,968 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:07,975 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:07,990 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:07,998 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:08,063 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:08,069 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:08,079 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[-0.296 -0.719 -0.843]
+ [-0.73  -0.598 -0.206]]
+2021-09-14 07:03:08,099 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:08,108 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:08,186 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:08,193 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:08,207 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:08,217 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:08,308 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:08,316 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:08,333 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:08,343 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:08,457 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:08,471 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:08,491 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[0.    0.719 0.843]
+ [0.    0.598 0.206]]
+2021-09-14 07:03:08,528 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:08,549 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:08,684 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:08,695 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:08,722 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:08,742 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:08,866 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:08,876 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:08,901 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:08,909 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:09,055 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:09,071 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:09,092 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[ 0.    -0.719 -0.843]
+ [ 0.    -0.598 -0.206]]
+2021-09-14 07:03:09,135 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:09,152 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:09,284 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:09,294 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:09,309 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:09,322 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:09,427 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:09,438 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:09,458 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:09,471 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:09,565 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:09,572 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:50,385 - fhvqe.experiment:151 - DEBUG - Preparing exact analysis function for onsite
+2021-09-14 07:03:50,386 - fhvqe.experiment:151 - DEBUG - Preparing exact analysis function for horiz
+2021-09-14 07:03:50,388 - fhvqe.experiment:151 - DEBUG - Preparing exact analysis function for horiz
+2021-09-14 07:03:50,388 - fhvqe.error_mitigation:1235 - INFO - About to mitigate, theta=[[0.296, 0.719, 0.843], [0.73, 0.598, 0.206]]
+2021-09-14 07:03:50,389 - fhvqe.error_mitigation:1298 - DEBUG - About to run TFLO, params=[[[0, 3.18362, 6.2764], [0, 3.8246, 5.84549]], [[0, 2.6901, 2.99716], [0, 3.34154, 1.63886]], [[0, 0.841172, 0.857071], [0, 2.83507, 0.132099]], [[0, 0.919596, 3.58906], [0, 2.34207, 4.81843]], [[0, 2.02167, 0.711094], [0, 2.87848, 1.92383]], [[0, 3.07888, 1.31344], [0, 4.01245, 3.64854]], [[0, 5.49346, 5.73656], [0, 1.32223, 3.05705]], [[0, 5.44561, 1.68616], [0, 5.99541, 0.440987]], [[0, 5.75192, 6.00118], [0, 4.30115, 3.98124]], [[0, 3.7131, 0.592184], [0, 4.51095, 4.07368]], [[0, 2.7152, 1.86577], [0, 0.588014, 2.06039]], [[0, 2.57569, 4.7256], [0, 3.85901, 0.371302]], [[0, 4.65032, 0.953688], [0, 4.94274, 3.13591]], [[0, 0.299448, 3.22459], [0, 4.5425, 2.32293]], [[0, 5.54704, 4.13572], [0, 4.5425, 2.32293]], [[0, 4.016, 5.5268], [0, 4.80713, 0.271348]], [[0, 0.719, 0.843], [0, 0.598, 0.206]], [[0.296, 0.719, 0.843], [0.73, 0.598, 0.206]], [[0, -3.18362, -6.2764], [0, -3.8246, -5.84549]], [[0, -2.6901, -2.99716], [0, -3.34154, -1.63886]], [[0, -0.841172, -0.857071], [0, -2.83507, -0.132099]], [[0, -0.919596, -3.58906], [0, -2.34207, -4.81843]], [[0, -2.02167, -0.711094], [0, -2.87848, -1.92383]], [[0, -3.07888, -1.31344], [0, -4.01245, -3.64854]], [[0, -5.49346, -5.73656], [0, -1.32223, -3.05705]], [[0, -5.44561, -1.68616], [0, -5.99541, -0.440987]], [[0, -5.75192, -6.00118], [0, -4.30115, -3.98124]], [[0, -3.7131, -0.592184], [0, -4.51095, -4.07368]], [[0, -2.7152, -1.86577], [0, -0.588014, -2.06039]], [[0, -2.57569, -4.7256], [0, -3.85901, -0.371302]], [[0, -4.65032, -0.953688], [0, -4.94274, -3.13591]], [[0, -0.299448, -3.22459], [0, -4.5425, -2.32293]], [[0, -5.54704, -4.13572], [0, -4.5425, -2.32293]], [[0, -4.016, -5.5268], [0, -4.80713, -0.271348]], [[0, -0.719, -0.843], [0, -0.598, -0.206]], [[-0.296, -0.719, -0.843], [-0.73, -0.598, -0.206]]]
+2021-09-14 07:03:50,389 - fhvqe.experiment:658 - INFO - Preparing executables.
+2021-09-14 07:03:50,390 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[0.      3.18362 6.2764 ]
+ [0.      3.8246  5.84549]]
+2021-09-14 07:03:50,410 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:50,418 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:50,489 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:50,495 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:50,507 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:50,517 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:50,588 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:50,594 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:50,609 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:50,617 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:50,681 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:50,687 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:50,697 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[0.      2.6901  2.99716]
+ [0.      3.34154 1.63886]]
+2021-09-14 07:03:50,715 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:50,724 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:50,794 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:50,799 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:50,812 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:50,821 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:50,892 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:50,899 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:50,913 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:50,921 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:50,986 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:50,991 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:51,001 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[0.       0.841172 0.857071]
+ [0.       2.83507  0.132099]]
+2021-09-14 07:03:51,020 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:51,028 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:51,099 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:51,105 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:51,117 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:51,127 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:51,198 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:51,205 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:51,221 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:51,229 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:51,294 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:51,300 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:51,310 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[0.       0.919596 3.58906 ]
+ [0.       2.34207  4.81843 ]]
+2021-09-14 07:03:51,328 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:51,337 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:51,407 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:51,413 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:51,425 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:51,434 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:51,504 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:51,511 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:51,525 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:51,533 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:51,604 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:51,610 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:51,621 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[0.       2.02167  0.711094]
+ [0.       2.87848  1.92383 ]]
+2021-09-14 07:03:51,641 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:51,650 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:51,721 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:51,727 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:51,739 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:51,748 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:51,819 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:51,825 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:51,840 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:51,848 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:51,912 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:51,918 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:51,928 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[0.      3.07888 1.31344]
+ [0.      4.01245 3.64854]]
+2021-09-14 07:03:51,947 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:51,955 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:52,025 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:52,031 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:52,043 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:52,052 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:52,122 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:52,129 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:52,144 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:52,152 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:52,217 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:52,222 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:52,233 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[0.      5.49346 5.73656]
+ [0.      1.32223 3.05705]]
+2021-09-14 07:03:52,253 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:52,261 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:52,331 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:52,337 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:52,349 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:52,358 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:52,428 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:52,435 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:52,449 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:52,457 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:52,522 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:52,527 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:52,537 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[0.       5.44561  1.68616 ]
+ [0.       5.99541  0.440987]]
+2021-09-14 07:03:52,556 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:52,564 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:52,635 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:52,640 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:52,653 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:52,662 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:52,733 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:52,739 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:52,753 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:52,761 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:52,825 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:52,831 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:52,841 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[0.      5.75192 6.00118]
+ [0.      4.30115 3.98124]]
+2021-09-14 07:03:52,860 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:52,868 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:52,939 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:52,944 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:52,957 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:52,966 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:53,037 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:53,044 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:53,058 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:53,066 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:53,130 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:53,136 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:53,146 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[0.       3.7131   0.592184]
+ [0.       4.51095  4.07368 ]]
+2021-09-14 07:03:53,165 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:53,173 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:53,243 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:53,249 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:53,261 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:53,271 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:53,341 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:53,348 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:53,362 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:53,370 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:53,435 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:53,440 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:53,450 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[0.       2.7152   1.86577 ]
+ [0.       0.588014 2.06039 ]]
+2021-09-14 07:03:53,470 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:53,478 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:53,548 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:53,554 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:53,567 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:53,576 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:53,647 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:53,654 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:53,668 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:53,676 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:53,740 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:53,746 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:53,756 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[0.       2.57569  4.7256  ]
+ [0.       3.85901  0.371302]]
+2021-09-14 07:03:53,775 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:53,783 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:53,854 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:53,860 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:53,873 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:53,882 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:53,953 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:53,960 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:53,974 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:53,982 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:54,046 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:54,052 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:54,062 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[0.       4.65032  0.953688]
+ [0.       4.94274  3.13591 ]]
+2021-09-14 07:03:54,080 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:54,089 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:54,159 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:54,165 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:54,177 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:54,186 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:54,256 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:54,263 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:54,277 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:54,285 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:54,350 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:54,356 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:54,366 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[0.       0.299448 3.22459 ]
+ [0.       4.5425   2.32293 ]]
+2021-09-14 07:03:54,385 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:54,393 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:54,463 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:54,469 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:54,481 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:54,490 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:54,560 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:54,567 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:54,581 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:54,589 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:54,653 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:54,659 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:54,669 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[0.      5.54704 4.13572]
+ [0.      4.5425  2.32293]]
+2021-09-14 07:03:54,688 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:54,696 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:54,768 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:54,774 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:54,786 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:54,795 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:54,868 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:54,874 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:54,889 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:54,897 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:54,961 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:54,967 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:54,977 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[0.       4.016    5.5268  ]
+ [0.       4.80713  0.271348]]
+2021-09-14 07:03:54,995 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:55,004 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:55,075 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:55,080 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:55,092 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:55,102 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:55,172 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:55,179 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:55,195 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:55,203 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:55,270 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:55,276 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:55,286 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[0.    0.719 0.843]
+ [0.    0.598 0.206]]
+2021-09-14 07:03:55,305 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:55,314 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:55,384 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:55,390 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:55,402 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:55,411 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:55,482 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:55,488 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:55,502 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:55,510 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:55,574 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:55,580 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:55,590 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[0.296 0.719 0.843]
+ [0.73  0.598 0.206]]
+2021-09-14 07:03:55,609 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:55,617 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:55,688 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:55,694 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:55,706 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:55,715 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:55,786 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:55,793 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:55,807 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:55,815 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:55,881 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:55,887 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:55,897 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[ 0.      -3.18362 -6.2764 ]
+ [ 0.      -3.8246  -5.84549]]
+2021-09-14 07:03:55,917 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:55,925 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:55,995 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:56,001 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:56,013 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:56,022 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:56,093 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:56,100 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:56,114 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:56,122 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:56,187 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:56,192 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:56,202 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[ 0.      -2.6901  -2.99716]
+ [ 0.      -3.34154 -1.63886]]
+2021-09-14 07:03:56,221 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:56,229 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:56,299 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:56,305 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:56,317 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:56,326 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:56,396 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:56,403 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:56,417 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:56,425 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:56,489 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:56,495 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:56,505 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[ 0.       -0.841172 -0.857071]
+ [ 0.       -2.83507  -0.132099]]
+2021-09-14 07:03:56,523 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:56,532 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:56,602 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:56,608 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:56,620 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:56,629 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:56,700 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:56,706 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:56,721 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:56,729 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:56,794 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:56,799 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:56,809 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[ 0.       -0.919596 -3.58906 ]
+ [ 0.       -2.34207  -4.81843 ]]
+2021-09-14 07:03:56,828 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:56,836 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:56,907 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:56,912 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:56,925 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:56,934 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:57,004 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:57,011 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:57,025 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:57,033 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:57,097 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:57,103 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:57,112 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[ 0.       -2.02167  -0.711094]
+ [ 0.       -2.87848  -1.92383 ]]
+2021-09-14 07:03:57,132 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:57,140 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:57,210 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:57,216 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:57,228 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:57,237 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:57,307 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:57,314 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:57,328 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:57,336 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:57,401 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:57,406 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:57,416 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[ 0.      -3.07888 -1.31344]
+ [ 0.      -4.01245 -3.64854]]
+2021-09-14 07:03:57,435 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:57,443 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:57,513 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:57,519 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:57,531 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:57,540 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:57,611 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:57,618 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:57,632 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:57,640 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:57,705 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:57,710 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:57,720 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[ 0.      -5.49346 -5.73656]
+ [ 0.      -1.32223 -3.05705]]
+2021-09-14 07:03:57,739 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:57,747 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:57,817 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:57,823 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:57,835 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:57,844 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:57,915 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:57,922 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:57,936 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:57,944 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:58,008 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:58,014 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:58,023 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[ 0.       -5.44561  -1.68616 ]
+ [ 0.       -5.99541  -0.440987]]
+2021-09-14 07:03:58,043 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:58,051 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:58,122 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:58,128 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:58,140 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:58,149 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:58,220 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:58,226 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:58,241 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:58,249 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:58,312 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:58,318 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:58,328 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[ 0.      -5.75192 -6.00118]
+ [ 0.      -4.30115 -3.98124]]
+2021-09-14 07:03:58,456 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:58,464 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:58,535 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:58,541 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:58,553 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:58,562 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:58,632 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:58,639 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:58,653 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:58,661 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:58,726 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:58,731 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:58,741 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[ 0.       -3.7131   -0.592184]
+ [ 0.       -4.51095  -4.07368 ]]
+2021-09-14 07:03:58,760 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:58,768 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:58,838 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:58,844 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:58,856 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:58,865 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:58,936 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:58,943 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:58,957 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:58,965 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:59,028 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:59,034 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:59,044 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[ 0.       -2.7152   -1.86577 ]
+ [ 0.       -0.588014 -2.06039 ]]
+2021-09-14 07:03:59,062 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:59,071 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:59,141 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:59,147 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:59,159 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:59,168 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:59,242 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:59,249 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:59,263 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:59,271 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:59,340 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:59,346 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:59,356 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[ 0.       -2.57569  -4.7256  ]
+ [ 0.       -3.85901  -0.371302]]
+2021-09-14 07:03:59,374 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:59,383 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:59,453 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:59,459 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:59,471 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:59,480 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:59,551 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:59,557 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:59,571 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:59,579 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:59,644 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:59,650 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:59,659 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[ 0.       -4.65032  -0.953688]
+ [ 0.       -4.94274  -3.13591 ]]
+2021-09-14 07:03:59,678 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:59,687 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:03:59,757 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:59,763 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:59,775 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:03:59,784 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:03:59,855 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:03:59,861 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:03:59,875 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:03:59,883 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:03:59,948 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:03:59,953 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:03:59,963 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[ 0.       -0.299448 -3.22459 ]
+ [ 0.       -4.5425   -2.32293 ]]
+2021-09-14 07:03:59,982 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:03:59,990 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:04:00,062 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:04:00,068 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:04:00,080 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:04:00,090 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:04:00,160 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:04:00,167 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:04:00,181 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:04:00,189 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:04:00,257 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:04:00,263 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:04:00,273 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[ 0.      -5.54704 -4.13572]
+ [ 0.      -4.5425  -2.32293]]
+2021-09-14 07:04:00,291 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:04:00,300 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:04:00,369 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:04:00,375 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:04:00,387 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:04:00,396 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:04:00,467 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:04:00,475 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:04:00,489 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:04:00,497 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:04:00,561 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:04:00,567 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:04:00,577 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[ 0.       -4.016    -5.5268  ]
+ [ 0.       -4.80713  -0.271348]]
+2021-09-14 07:04:00,595 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:04:00,603 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:04:00,673 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:04:00,679 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:04:00,692 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:04:00,701 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:04:00,772 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:04:00,779 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:04:00,793 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:04:00,801 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:04:00,865 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:04:00,871 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:04:00,881 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[ 0.    -0.719 -0.843]
+ [ 0.    -0.598 -0.206]]
+2021-09-14 07:04:00,899 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:04:00,908 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:04:00,978 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:04:00,984 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:04:00,996 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:04:01,005 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:04:01,079 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:04:01,086 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:04:01,100 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:04:01,108 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:04:01,172 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:04:01,178 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:04:01,188 - fhvqe.experiment:662 - DEBUG - ansatz with params: [[-0.296 -0.719 -0.843]
+ [-0.73  -0.598 -0.206]]
+2021-09-14 07:04:01,209 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 51
+2021-09-14 07:04:01,217 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 51
+2021-09-14 07:04:01,292 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:04:01,298 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37
+2021-09-14 07:04:01,311 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 55
+2021-09-14 07:04:01,320 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 55
+2021-09-14 07:04:01,392 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 41
+2021-09-14 07:04:01,399 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 41
+2021-09-14 07:04:01,413 - fhvqe.experiment:553 - DEBUG - number of moments preoptimization: 49
+2021-09-14 07:04:01,421 - fhvqe.experiment:554 - DEBUG - depth preoptimization: 49
+2021-09-14 07:04:01,487 - fhvqe.experiment:595 - DEBUG - number of moments post-optimization and calibration: 37
+2021-09-14 07:04:01,493 - fhvqe.experiment:596 - DEBUG - depth post-optimization and calibration: 37

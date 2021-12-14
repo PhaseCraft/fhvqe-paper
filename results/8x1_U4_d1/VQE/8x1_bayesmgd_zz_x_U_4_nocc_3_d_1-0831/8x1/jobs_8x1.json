@@ -1,0 +1,5 @@
+{
+    "job_id": "8x1_bayesmgd_zz_x_U_4_nocc_3_d_1-0831",
+    "program_id": "8x1_bayesmgd_zz_x_U_4_nocc_3_d_1-0831",
+    "qubits": "[cirq.GridQubit(3, 2), cirq.GridQubit(4, 2), cirq.GridQubit(4, 3), cirq.GridQubit(5, 3), cirq.GridQubit(5, 4), cirq.GridQubit(6, 4), cirq.GridQubit(6, 5), cirq.GridQubit(7, 5), cirq.GridQubit(4, 1), cirq.GridQubit(5, 1), cirq.GridQubit(5, 2), cirq.GridQubit(6, 2), cirq.GridQubit(6, 3), cirq.GridQubit(7, 3), cirq.GridQubit(7, 4), cirq.GridQubit(8, 4)]"
+}

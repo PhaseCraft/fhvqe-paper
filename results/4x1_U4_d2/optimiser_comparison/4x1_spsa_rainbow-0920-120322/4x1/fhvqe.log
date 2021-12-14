@@ -1,0 +1,18 @@
+2021-09-20 12:03:24,062 - fhvqe.settings:352 - INFO - Best pos: (5, 1), flip: True
+2021-09-20 12:03:24,062 - fhvqe.settings:486 - INFO - Best qubits by two_qubit_parallel_sqrt_iswap_gate_xeb_average_error_per_cycle: [cirq.GridQubit(5, 1), cirq.GridQubit(5, 2), cirq.GridQubit(5, 3), cirq.GridQubit(5, 4), cirq.GridQubit(6, 1), cirq.GridQubit(6, 2), cirq.GridQubit(6, 3), cirq.GridQubit(6, 4)]. Quality: 0.9084365980393818
+2021-09-20 12:03:24,198 - fhvqe.experiment:658 - INFO - Preparing executables.
+2021-09-20 12:03:53,295 - fhvqe.experiment:658 - INFO - Preparing executables.
+2021-09-20 12:04:11,601 - fhvqe.experiment:658 - INFO - Preparing executables.
+2021-09-20 12:04:41,712 - fhvqe.experiment:658 - INFO - Preparing executables.
+2021-09-20 12:05:13,864 - fhvqe.experiment:658 - INFO - Preparing executables.
+2021-09-20 12:05:44,394 - fhvqe.experiment:658 - INFO - Preparing executables.
+2021-09-20 12:06:15,525 - fhvqe.experiment:658 - INFO - Preparing executables.
+2021-09-20 12:06:32,680 - fhvqe.experiment:658 - INFO - Preparing executables.
+2021-09-20 12:07:04,058 - fhvqe.experiment:658 - INFO - Preparing executables.
+2021-09-20 12:07:35,608 - fhvqe.experiment:658 - INFO - Preparing executables.
+2021-09-20 12:08:06,350 - fhvqe.experiment:658 - INFO - Preparing executables.
+2021-09-20 12:08:37,968 - fhvqe.experiment:658 - INFO - Preparing executables.
+2021-09-20 12:08:54,575 - fhvqe.experiment:658 - INFO - Preparing executables.
+2021-09-20 12:09:26,558 - fhvqe.experiment:658 - INFO - Preparing executables.
+2021-09-20 12:09:56,702 - fhvqe.experiment:658 - INFO - Preparing executables.
+2021-09-20 12:10:30,172 - fhvqe.vqe_experiment:1116 - INFO - Collecting data from the server

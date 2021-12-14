@@ -1,0 +1,42 @@
+{
+    "processor_name": "rainbow",
+    "processor_gateset": "fsim",
+    "optimize_circuit": "syc_layers_x2",
+    "nh": 2,
+    "nv": 4,
+    "nocc": 15,
+    "nocc_1": 8,
+    "nocc_2": 7,
+    "U": 8,
+    "num_trials_setting": [
+        1000
+    ],
+    "grad_evals_setting": [
+        1
+    ],
+    "max_evals_setting": [
+        600
+    ],
+    "split": false,
+    "d": 1,
+    "qubits": "zigzag 3 2 dr",
+    "chosen_ansatz": "two_by_n_zigzag",
+    "error_correction": {
+        "occupation_number": true,
+        "spin_type": true,
+        "tflo": false
+    },
+    "opt_algo": "bayes_mgd",
+    "opt_args": {
+        "A": 2,
+        "nshots": 1000,
+        "eta": 1.5,
+        "gamma": 0.6,
+        "delta": 0.6,
+        "xi": 0.101,
+        "l0": 0.2
+    },
+    "file_desc": "4x2_bayesmgd_zz_x_U_8_nocc_15_d_1",
+    "save_samples": true,
+    "objective_func": "energy"
+}

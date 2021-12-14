@@ -1,0 +1,36 @@
+{
+    "nh": 8,
+    "nv": 1,
+    "num_trials_setting": [
+        100000
+    ],
+    "split": false,
+    "processor_name": "rainbow",
+    "processor_gateset": "sqrt_iswap",
+    "optimize_circuit": "syc_layers_x2",
+    "nocc": 15,
+    "nocc_1": 8,
+    "nocc_2": 7,
+    "d": 1,
+    "U": 4.0,
+    "qubits": "zigzag 3 2 dr",
+    "chosen_ansatz": "one_by_n_zigzag",
+    "error_correction": {
+        "occupation_number": true,
+        "spin_type": true,
+        "tflo": true,
+        "tflo_points":[[[0,0,0]],[[0,0,0.785398]],[[0,1.5708,0.785398]],[[0,5.49779,0.785398]],[[0,3.92699,0]],[[0,4.71239,0.785398]],[[0,3.14159,0.785398]],[[0,0,4.71239]],[[0,0.785398,3.92699]],[[0,5.49779,3.14159]],[[0,4.71239,4.71239]],[[0,1.5708,4.71239]],[[0,3.14159,5.49779]],[[0,3.92699,4.71239]],[[0,3.92699,2.35619]],[[0,3.92699,3.92699]]],
+        "tflo_exact_energies": [26.1206,26.1641,26.2261,26.2888,26.3708,26.4391,26.5011,26.5519,26.623,26.6673,26.7447,26.802,26.8622,26.9097,26.9891,27.0409]
+    },
+    "objective_func": "energy",
+    "file_desc": "8x1_single_zz_x_U_4_nocc_15_d_1",
+    "save_samples": true,
+    "opt_algo": "none",
+    "opt_args": {
+        "single_flo": [
+            [
+0.954, 0.858, 0.992
+            ]
+        ]
+    }
+}

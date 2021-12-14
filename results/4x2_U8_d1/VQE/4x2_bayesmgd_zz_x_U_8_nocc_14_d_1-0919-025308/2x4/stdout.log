@@ -1,0 +1,342 @@
+{'theta': True, 'zeta': True, 'chi': False, 'gamma': True, 'phi': True, 'time': None}
+{'theta': False, 'zeta': False, 'chi': False, 'gamma': False, 'phi': False, 'time': None}
+                  (3, 2)
+                  │
+                  │
+         (4, 1)───(4, 2)───(4, 3)
+         │        │        │
+         │        │        │
+(5, 0)───(5, 1)───(5, 2)───(5, 3)───(5, 4)
+         │        │        │        │
+         │        │        │        │
+         (6, 1)───(6, 2)───(6, 3)───(6, 4)───(6, 5)
+                  │        │        │        │
+                  │        │        │        │
+                  (7, 2)───(7, 3)───(7, 4)───(7, 5)───(7, 6)
+                           │        │        │
+                           │        │        │
+                           (8, 3)───(8, 4)───(8, 5)
+                                    │
+                                    │
+                                    (9, 4)
+Start at: (3, 2), with dr
+Using qubits [cirq.GridQubit(3, 2), cirq.GridQubit(4, 2), cirq.GridQubit(4, 3), cirq.GridQubit(5, 3), cirq.GridQubit(5, 4), cirq.GridQubit(6, 4), cirq.GridQubit(6, 5), cirq.GridQubit(7, 5), cirq.GridQubit(4, 1), cirq.GridQubit(5, 1), cirq.GridQubit(5, 2), cirq.GridQubit(6, 2), cirq.GridQubit(6, 3), cirq.GridQubit(7, 3), cirq.GridQubit(7, 4), cirq.GridQubit(8, 4)]
+Using qubits, JW:[cirq.GridQubit(3, 2), cirq.GridQubit(4, 2), cirq.GridQubit(4, 3), cirq.GridQubit(5, 3), cirq.GridQubit(5, 4), cirq.GridQubit(6, 4), cirq.GridQubit(6, 5), cirq.GridQubit(7, 5), cirq.GridQubit(4, 1), cirq.GridQubit(5, 1), cirq.GridQubit(5, 2), cirq.GridQubit(6, 2), cirq.GridQubit(6, 3), cirq.GridQubit(7, 3), cirq.GridQubit(7, 4), cirq.GridQubit(8, 4)]
+                  [31m(3, 2)[0m
+                  │
+                  │
+         [35m(4, 1)[0m───[31m(4, 2)[0m───[31m(4, 3)[0m
+         │        │        │
+         │        │        │
+(5, 0)───[35m(5, 1)[0m───[35m(5, 2)[0m───[31m(5, 3)[0m───[31m(5, 4)[0m
+         │        │        │        │
+         │        │        │        │
+         (6, 1)───[35m(6, 2)[0m───[35m(6, 3)[0m───[31m(6, 4)[0m───[31m(6, 5)[0m
+                  │        │        │        │
+                  │        │        │        │
+                  (7, 2)───[35m(7, 3)[0m───[35m(7, 4)[0m───[31m(7, 5)[0m───(7, 6)
+                           │        │        │
+                           │        │        │
+                           (8, 3)───[35m(8, 4)[0m───(8, 5)
+                                    │
+                                    │
+                                    (9, 4)
+None
+Meas types ['onsite0', 'horiz0', 'vert02', 'vert12']
+Prepped onsite, pairs=[(0, 8), (1, 9), (2, 10), (3, 11), (4, 12), (5, 13), (6, 14), (7, 15)]
+Prepped horiz, pairs=[(0, 1), (2, 3), (4, 5), (6, 7), (8, 9), (10, 11), (12, 13), (14, 15)]
+Prepped vert0, pairs=[(1, 2), (3, 4), (5, 6), (9, 10), (11, 12), (13, 14)]
+Prepped vert1, pairs=[(1, 2), (3, 4), (5, 6), (9, 10), (11, 12), (13, 14)]
+Set recompilation to False
+Got pairs set [(10, 11), (5, 6), (3, 11), (5, 13), (8, 9), (4, 12), (6, 14), (1, 2), (6, 7), (7, 15), (12, 13), (4, 5), (2, 10), (9, 10), (2, 3), (1, 9), (14, 15), (0, 8), (11, 12), (0, 1), (13, 14), (3, 4)]
+---Starting to do calibration: delta 3.6569527870000007
+---Starting to set up measurements: delta 0.8651749659999997
+---Starting to run VQE: delta 2.2136269889999998
+Running BayesMGD: n_evals 23, nshots 1000, max_iter 50, max_evals 600
+---Preparing executables
+---Running executables, 4 in batch, delta=2.009004446999999
+---Extracting values delta=2.687595882
+---Extracted values delta=7.027394600000001
+Running block of size 20...
+---Preparing executables
+---Running executables, 80 in batch, delta=39.36955717500001
+---Extracting values delta=5.872494478000007
+---Extracted values delta=61.11766767099999
+Running block of size 20...
+---Preparing executables
+---Running executables, 80 in batch, delta=39.24594403100002
+---Extracting values delta=5.301830933000019
+---Extracted values delta=64.06118946699999
+Running block of size 6...
+---Preparing executables
+---Running executables, 24 in batch, delta=11.994480358999994
+---Extracting values delta=2.1679653509999923
+---Extracted values delta=26.558344093000017
+[46.96337250465196, 45.066286578113306]
+2  :--------------------------------
+fit_params:  [-1.441 -2.391 -2.629 -3.183 -1.346 -0.662  0.508 -1.023 -1.878 -0.594
+ 10.236 10.618  7.135 14.097 23.966]
+current: 45.066+/-1.168  params:  [0.6   0.875 0.882 0.771]  grad:  [1.292 0.404 0.381 0.741]  gamma_k: 0.3097  delta_k: 0.6000
+Running block of size 20...
+---Preparing executables
+---Running executables, 80 in batch, delta=41.235385904
+---Extracting values delta=5.367343908000009
+---Extracted values delta=61.375889083000004
+Running block of size 20...
+---Preparing executables
+---Running executables, 80 in batch, delta=39.413078540000015
+---Extracting values delta=5.640157676999991
+---Extracted values delta=64.01033393800003
+Running block of size 6...
+---Preparing executables
+---Running executables, 24 in batch, delta=11.985080492000009
+---Extracting values delta=2.0501625370000625
+---Extracted values delta=25.22214368099992
+[46.96337250465196, 45.066286578113306, 45.066286578113306, 45.392442917652374]
+3  :--------------------------------
+fit_params:  [ 0.651 -0.816 -0.94   0.031 -0.732  0.588  0.542 -0.088 -0.89  -0.139
+  0.133  3.034  0.939  2.042 42.278]
+current: 45.392+/-0.302  params:  [0.461 0.794 0.694 0.723]  grad:  [0.534 0.312 0.721 0.181]  gamma_k: 0.2604  delta_k: 0.5594
+Running block of size 20...
+---Preparing executables
+---Running executables, 80 in batch, delta=39.78338862099997
+---Extracting values delta=5.530105377000041
+---Extracted values delta=61.39893482500008
+Running block of size 20...
+---Preparing executables
+---Running executables, 80 in batch, delta=39.38093742199999
+---Extracting values delta=5.266003287000103
+---Extracted values delta=66.273780569
+Running block of size 6...
+---Preparing executables
+---Running executables, 24 in batch, delta=12.254757148000067
+---Extracting values delta=3.581912394000028
+---Extracted values delta=25.37039275399991
+[46.96337250465196, 45.066286578113306, 45.066286578113306, 45.392442917652374, 45.392442917652374, 45.0247972508053]
+4  :--------------------------------
+fit_params:  [ 0.435 -0.554  0.011  0.232  0.183  0.092  0.847 -0.075 -0.859 -0.14
+ -0.445  1.482 -1.308  1.551 44.293]
+current: 45.025+/-0.272  params:  [0.4   0.634 0.709 0.664]  grad:  [ 0.265  0.703 -0.066  0.26 ]  gamma_k: 0.2277  delta_k: 0.5370
+Running block of size 20...
+---Preparing executables
+---Running executables, 80 in batch, delta=39.426150654000025
+---Extracting values delta=5.436426475000076
+---Extracted values delta=60.822233083000015
+Running block of size 20...
+---Preparing executables
+---Running executables, 80 in batch, delta=39.629217323000034
+---Extracting values delta=6.141191200000094
+---Extracted values delta=65.02302138499999
+Running block of size 6...
+---Preparing executables
+---Running executables, 24 in batch, delta=11.962227149000114
+---Extracting values delta=2.024098472000105
+---Extracted values delta=32.87392263400011
+[46.96337250465196, 45.066286578113306, 45.066286578113306, 45.392442917652374, 45.392442917652374, 45.0247972508053, 45.0247972508053, 45.03430616030228]
+5  :--------------------------------
+fit_params:  [ 0.867 -0.185  0.076 -0.183  0.359  0.113  0.036  0.34  -0.322  0.199
+ -1.818  0.473 -0.313  0.181 45.307]
+current: 45.034+/-0.206  params:  [0.412 0.603 0.67  0.647]  grad:  [-0.058  0.15   0.195  0.085]  gamma_k: 0.2040  delta_k: 0.5216
+Running block of size 20...
+---Preparing executables
+---Running executables, 80 in batch, delta=39.490768619999926
+---Extracting values delta=5.882111016999943
+---Extracted values delta=64.71069223100017
+Running block of size 20...
+---Preparing executables
+---Running executables, 80 in batch, delta=39.880782312000065
+---Extracting values delta=5.487481063000132
+---Extracted values delta=63.975754569999935
+Running block of size 6...
+---Preparing executables
+---Running executables, 24 in batch, delta=12.092248691999885
+---Extracting values delta=2.2482119889998557
+---Extracted values delta=25.096070240000017
+[46.96337250465196, 45.066286578113306, 45.066286578113306, 45.392442917652374, 45.392442917652374, 45.0247972508053, 45.0247972508053, 45.03430616030228, 45.03430616030228, 44.95859212898573]
+6  :--------------------------------
+fit_params:  [ 0.841 -0.02   0.103 -0.124  0.277  0.623  0.022  0.343 -0.183  0.031
+ -2.391  0.349 -0.503  0.564 45.261]
+current: 44.959+/-0.183  params:  [0.428 0.539 0.629 0.553]  grad:  [-0.086  0.345  0.216  0.507]  gamma_k: 0.1860  delta_k: 0.5100
+Running block of size 20...
+---Preparing executables
+---Running executables, 80 in batch, delta=39.39208045600003
+---Extracting values delta=6.092319712999824
+---Extracted values delta=66.30307086799985
+Running block of size 20...
+---Preparing executables
+---Running executables, 80 in batch, delta=65.23162890100002
+---Extracting values delta=8.185054111999989
+---Extracted values delta=64.1993985680001
+Running block of size 6...
+---Preparing executables
+---Running executables, 24 in batch, delta=15.144597556999997
+---Extracting values delta=2.6246056310001222
+---Extracted values delta=25.697983894000117
+[46.96337250465196, 45.066286578113306, 45.066286578113306, 45.392442917652374, 45.392442917652374, 45.0247972508053, 45.0247972508053, 45.03430616030228, 45.03430616030228, 44.95859212898573, 44.95859212898573, 44.93651306448835]
+7  :--------------------------------
+fit_params:  [ 0.469  0.031  0.087  0.185  0.352  0.596 -0.215  0.252 -0.339 -0.162
+ -2.147  0.489  0.264  0.461 44.983]
+current: 44.937+/-0.197  params:  [0.486 0.508 0.548 0.499]  grad:  [-0.338  0.177  0.472  0.313]  gamma_k: 0.1716  delta_k: 0.5007
+Running block of size 20...
+---Preparing executables
+---Running executables, 80 in batch, delta=53.30023744099981
+---Extracting values delta=5.912021321000111
+---Extracted values delta=66.35351373900016
+Running block of size 20...
+---Preparing executables
+---Running executables, 80 in batch, delta=50.71490884600007
+---Extracting values delta=6.150928348999969
+---Extracted values delta=65.97821574799991
+Running block of size 6...
+---Preparing executables
+---Running executables, 24 in batch, delta=12.051323613000022
+---Extracting values delta=2.5575333860001592
+---Extracted values delta=24.41269135099992
+[46.96337250465196, 45.066286578113306, 45.066286578113306, 45.392442917652374, 45.392442917652374, 45.0247972508053, 45.0247972508053, 45.03430616030228, 45.03430616030228, 44.95859212898573, 44.95859212898573, 44.93651306448835, 44.93651306448835, 45.059822712682646]
+8  :--------------------------------
+fit_params:  [ 0.868 -0.119  0.164  0.185  0.383  0.381  0.17   0.242 -0.161 -0.31
+ -1.861 -0.006  0.186  0.092 45.231]
+current: 45.060+/-0.202  params:  [0.481 0.465 0.452 0.498]  grad:  [0.032 0.271 0.6   0.009]  gamma_k: 0.1598  delta_k: 0.4929
+Running block of size 20...
+---Preparing executables
+---Running executables, 80 in batch, delta=39.919546916999934
+---Extracting values delta=5.378076813999996
+---Extracted values delta=61.7200182590002
+Running block of size 20...
+---Preparing executables
+---Running executables, 80 in batch, delta=40.13326860999996
+---Extracting values delta=5.449095297000213
+---Extracted values delta=63.58139304100041
+Running block of size 6...
+---Preparing executables
+---Running executables, 24 in batch, delta=11.923104815999977
+---Extracting values delta=2.108474001000104
+---Extracted values delta=24.856482443999994
+[46.96337250465196, 45.066286578113306, 45.066286578113306, 45.392442917652374, 45.392442917652374, 45.0247972508053, 45.0247972508053, 45.03430616030228, 45.03430616030228, 44.95859212898573, 44.95859212898573, 44.93651306448835, 44.93651306448835, 45.059822712682646, 45.059822712682646, 45.07899571144314]
+9  :--------------------------------
+fit_params:  [ 0.842  0.101  0.029  0.188  0.284  0.137  0.014  0.405 -0.067 -0.271
+ -1.97   0.143  0.106  0.009 45.376]
+current: 45.079+/-0.204  params:  [0.537 0.397 0.451 0.456]  grad:  [-0.37   0.457  0.006  0.278]  gamma_k: 0.1500  delta_k: 0.4863
+Running block of size 20...
+---Preparing executables
+---Running executables, 80 in batch, delta=39.53572150899981
+---Extracting values delta=5.219118460000118
+---Extracted values delta=62.218292896000094
+Running block of size 20...
+---Preparing executables
+---Running executables, 80 in batch, delta=44.59826344999965
+---Extracting values delta=5.503988040999957
+---Extracted values delta=63.42644723000012
+Running block of size 6...
+---Preparing executables
+---Running executables, 24 in batch, delta=11.900915425000221
+---Extracting values delta=2.486408484000094
+---Extracted values delta=26.069774237000274
+[46.96337250465196, 45.066286578113306, 45.066286578113306, 45.392442917652374, 45.392442917652374, 45.0247972508053, 45.0247972508053, 45.03430616030228, 45.03430616030228, 44.95859212898573, 44.95859212898573, 44.93651306448835, 44.93651306448835, 45.059822712682646, 45.059822712682646, 45.07899571144314, 45.07899571144314, 45.11513913728672]
+10  :--------------------------------
+fit_params:  [ 1.021  0.134  0.067  0.248  0.325  0.033  0.112  0.271 -0.192 -0.283
+ -1.925 -0.297  0.182  0.083 45.518]
+current: 45.115+/-0.178  params:  [0.578 0.385 0.436 0.429]  grad:  [-0.294  0.084  0.109  0.193]  gamma_k: 0.1417  delta_k: 0.4806
+Running block of size 20...
+---Preparing executables
+---Running executables, 80 in batch, delta=39.4847618419999
+---Extracting values delta=5.303112834000331
+---Extracted values delta=62.96571610199999
+Running block of size 20...
+---Preparing executables
+---Running executables, 80 in batch, delta=44.44975776599995
+---Extracting values delta=5.100471367000409
+---Extracted values delta=62.895481058000314
+Running block of size 6...
+---Preparing executables
+---Running executables, 24 in batch, delta=12.093960648999655
+---Extracting values delta=3.3054588499999227
+---Extracted values delta=24.54870764599991
+[46.96337250465196, 45.066286578113306, 45.066286578113306, 45.392442917652374, 45.392442917652374, 45.0247972508053, 45.0247972508053, 45.03430616030228, 45.03430616030228, 44.95859212898573, 44.95859212898573, 44.93651306448835, 44.93651306448835, 45.059822712682646, 45.059822712682646, 45.07899571144314, 45.07899571144314, 45.11513913728672, 45.11513913728672, 45.06682467597732]
+11  :--------------------------------
+fit_params:  [ 1.085  0.396  0.096  0.46   0.116  0.039  0.132  0.081 -0.287 -0.155
+ -1.675 -0.53  -0.083 -0.117 45.758]
+current: 45.067+/-0.170  params:  [0.609 0.415 0.434 0.427]  grad:  [-0.228 -0.223  0.014  0.014]  gamma_k: 0.1344  delta_k: 0.4755
+Running block of size 20...
+---Preparing executables
+---Running executables, 80 in batch, delta=39.86904365400005
+---Extracting values delta=5.224822823000068
+---Extracted values delta=61.99560556000006
+Running block of size 20...
+---Preparing executables
+---Running executables, 80 in batch, delta=39.56396485999994
+---Extracting values delta=9.534642523000002
+---Extracted values delta=65.194685639
+Running block of size 6...
+---Preparing executables
+---Running executables, 24 in batch, delta=12.080191990999992
+---Extracting values delta=2.172482519999903
+---Extracted values delta=25.636796883999978
+[46.96337250465196, 45.066286578113306, 45.066286578113306, 45.392442917652374, 45.392442917652374, 45.0247972508053, 45.0247972508053, 45.03430616030228, 45.03430616030228, 44.95859212898573, 44.95859212898573, 44.93651306448835, 44.93651306448835, 45.059822712682646, 45.059822712682646, 45.07899571144314, 45.07899571144314, 45.11513913728672, 45.11513913728672, 45.06682467597732, 45.06682467597732, 45.042144881378164]
+12  :--------------------------------
+fit_params:  [ 0.994  0.224  0.073  0.286  0.172  0.249  0.25   0.003 -0.202 -0.119
+ -1.695 -0.369 -0.546  0.033 45.688]
+current: 45.042+/-0.166  params:  [0.625 0.405 0.444 0.425]  grad:  [-0.123  0.071 -0.074  0.009]  gamma_k: 0.1281  delta_k: 0.4709
+Running block of size 20...
+---Preparing executables
+---Running executables, 80 in batch, delta=40.050960013999884
+---Extracting values delta=6.5898471229997995
+---Extracted values delta=61.6074146359997
+Running block of size 20...
+---Preparing executables
+---Running executables, 80 in batch, delta=44.27751910100005
+---Extracting values delta=5.412332890000016
+---Extracted values delta=63.40998287399998
+Running block of size 6...
+---Preparing executables
+---Running executables, 24 in batch, delta=13.124905117999788
+---Extracting values delta=2.1430900939999447
+---Extracted values delta=24.423108054000295
+[46.96337250465196, 45.066286578113306, 45.066286578113306, 45.392442917652374, 45.392442917652374, 45.0247972508053, 45.0247972508053, 45.03430616030228, 45.03430616030228, 44.95859212898573, 44.95859212898573, 44.93651306448835, 44.93651306448835, 45.059822712682646, 45.059822712682646, 45.07899571144314, 45.07899571144314, 45.11513913728672, 45.11513913728672, 45.06682467597732, 45.06682467597732, 45.042144881378164, 45.042144881378164, 45.17493624120162]
+13  :--------------------------------
+fit_params:  [ 0.933  0.26   0.206  0.232  0.164  0.252  0.414  0.162 -0.09  -0.359
+ -1.721 -0.546 -0.489  0.15  45.718]
+current: 45.175+/-0.156  params:  [0.632 0.386 0.439 0.406]  grad:  [-0.061  0.159  0.039  0.159]  gamma_k: 0.1225  delta_k: 0.4668
+Running block of size 20...
+---Preparing executables
+---Running executables, 80 in batch, delta=54.90652137699999
+---Extracting values delta=5.088346788000308
+---Extracted values delta=61.18405666700028
+Running block of size 20...
+---Preparing executables
+---Running executables, 80 in batch, delta=39.31454472099995
+---Extracting values delta=5.067194775000189
+---Extracted values delta=62.988145669000005
+Running block of size 6...
+---Preparing executables
+---Running executables, 24 in batch, delta=12.239466171999993
+---Extracting values delta=2.5829198390001693
+---Extracted values delta=26.571492623999802
+[46.96337250465196, 45.066286578113306, 45.066286578113306, 45.392442917652374, 45.392442917652374, 45.0247972508053, 45.0247972508053, 45.03430616030228, 45.03430616030228, 44.95859212898573, 44.95859212898573, 44.93651306448835, 44.93651306448835, 45.059822712682646, 45.059822712682646, 45.07899571144314, 45.07899571144314, 45.11513913728672, 45.11513913728672, 45.06682467597732, 45.06682467597732, 45.042144881378164, 45.042144881378164, 45.17493624120162, 45.17493624120162, 45.15827925650665]
+14  :--------------------------------
+fit_params:  [ 0.912  0.619  0.175  0.437 -0.056  0.212  0.347  0.41  -0.091 -0.26
+ -1.678 -0.59  -0.599 -0.214 45.82 ]
+current: 45.158+/-0.170  params:  [0.638 0.38  0.453 0.364]  grad:  [-0.049  0.047 -0.122  0.361]  gamma_k: 0.1175  delta_k: 0.4631
+Running block of size 20...
+---Preparing executables
+---Running executables, 80 in batch, delta=39.2131942609999
+---Extracting values delta=5.343342630999814
+---Extracted values delta=63.27048513999989
+Running block of size 20...
+---Preparing executables
+---Running executables, 80 in batch, delta=39.360019058000034
+---Extracting values delta=5.979743040999892
+---Extracted values delta=64.25682417500002
+Running block of size 6...
+---Preparing executables
+---Running executables, 24 in batch, delta=11.80570590599973
+---Extracting values delta=2.639299485000265
+---Extracted values delta=32.07444424999994
+[46.96337250465196, 45.066286578113306, 45.066286578113306, 45.392442917652374, 45.392442917652374, 45.0247972508053, 45.0247972508053, 45.03430616030228, 45.03430616030228, 44.95859212898573, 44.95859212898573, 44.93651306448835, 44.93651306448835, 45.059822712682646, 45.059822712682646, 45.07899571144314, 45.07899571144314, 45.11513913728672, 45.11513913728672, 45.06682467597732, 45.06682467597732, 45.042144881378164, 45.042144881378164, 45.17493624120162, 45.17493624120162, 45.15827925650665, 45.15827925650665, 45.04968420529817]
+15  :--------------------------------
+fit_params:  [ 1.081  0.355  0.538  0.172 -0.171  0.099  0.175  0.215  0.028 -0.289
+ -1.681 -0.372 -0.548 -0.154 45.882]
+current: 45.050+/-0.156  params:  [0.659 0.396 0.454 0.363]  grad:  [-0.185 -0.141 -0.011  0.004]  gamma_k: 0.1131  delta_k: 0.4596
+***45.05+/-0.16 1632020113.855723
+---VQE complete: delta 3718.06894912
+Data collected can be found at experiments/4x2_bayesmgd_zz_x_U_8_nocc_14_d_1-0919-025308/2x4
