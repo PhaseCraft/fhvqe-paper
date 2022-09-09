@@ -394,7 +394,7 @@ def quadratic_model_function(params, x, params_cov=None):
     idx = n
     for i in range(1, n):
         for j in range(0, i):
-            y += 2 * params[idx] * x[j] * x[j]
+            y += 2 * params[idx] * x[i] * x[j]
             idx += 1
     
     if params_cov is None:
