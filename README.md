@@ -54,3 +54,19 @@ Finally, there are various debug flags throughout the code that can be switched 
 python -O -m fhvqe.vqe_experiment -f config.json
 ```
 
+
+# Ground-state reference values
+
+The released 2x4 `Ground state` spin correlations
+(`figure_data/correlations/spin_correlations_2x4_U_4.json` and its CSV
+copies) and the ground-state entries of
+`figure_data/additional_2x4/staggered.json` had been read with operators
+written for the `snake` qubit layout from a state stored in OpenFermion's
+`ordered` layout (`tools.map_rcs_to_snake` versus `tools.map_rcs_to_ordered`;
+for `nh = 1` the two coincide, so the 1x8 data are unaffected). The script
+that produced them was not released. `fhvqe/ground_state.py` recomputes
+them with the operators read in the state's own layout:
+
+```
+python -m fhvqe.ground_state
+```
